@@ -1,0 +1,39 @@
+<section class="offer">
+
+    <div class="spc-group">
+        <ul id="menu-flters">
+            {% for offer in offer %}
+                <li data-filter=".filter{{ offer.pk }}"> {{ offer.offer }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="row menu-container">
+
+    <div class="container">
+        <div class="row">
+            {% for product in products %}
+                {% if product.offer %}
+              <div class="col-lg-4  menu-item filter{{ product.offer.pk }}">
+                  <div class="card">
+                      <img src="{{ product.photo.url }}" class="card-img-top" alt=""/>
+                      <div class="card-body">
+                        <h5 class="card-title">₴{{ product.price }}</h5>
+                        <p class="card-text">
+                            {{ product.name }}
+                        </p>
+                        <a href="{% url "cart:add_product" product.id %}" class="btn
+                        btn-primary">Купити</a>
+                        <a href="{{ product.get_absolute_url }}" class="btn btn-primary">Детальніше</a>
+                      </div>
+                  </div>
+              </div>
+                {% endif %}
+            {% endfor %}
+
+
+        </div>
+    </div>
+    </div>
+
+</section>

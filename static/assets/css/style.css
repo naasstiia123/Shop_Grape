@@ -1,0 +1,474 @@
+body {
+    background-color: rgb(243, 243, 243);
+ 
+  }
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+.container-fluid a img{
+    width: 150px;
+    height: 50px;
+}
+.navbar {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+  } 
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 24px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(14, 1, 1);
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+  
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 1.5;
+  }
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: #e90606;
+  }
+.btnbtn-primary{
+    font-family: cyrillic;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.container-fluid1{
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 15px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.d-flex button{
+  display: flex;
+  font-weight: 500;
+  color: rgba(185, 56, 56, 0.589);
+  white-space: nowrap;
+  text-align: center;
+  font-family: cyrillic;
+  box-shadow: #000000;
+  border:  rgba(185, 56, 56, 0.589);
+
+}
+
+.d-flex button[type="submit"]:hover {
+  color: rgb(236, 234, 234);
+  background:  rgba(185, 56, 56, 0.589);
+
+}
+
+.btn-group{
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    text-align: center;
+    font-family: cyrillic;
+    box-shadow: #000000;  
+    padding-bottom: 20px;
+}
+
+
+.btn-primary{
+    color: rgb(236, 234, 234);  
+    background: rgb(185, 56, 56);
+    border: rgb(63, 7, 7);
+}
+
+.btn-group a[type="submit"]:hover {
+    color: rgb(236, 234, 234);
+    background:  rgba(185, 56, 56, 0.589);
+  }
+
+.btn-group .btn-primary a[type="submit"]:active {
+  color: rgb(236, 234, 234);
+  background-color:  rgba(185, 56, 56, 0.589);
+  text-decoration: none;
+
+}
+
+
+.row .col-lg-3 {
+    display: flex;
+    padding: 10px 10px 10px 15px; 
+    height: 100%;
+  }
+
+  .row .col-lg-3 img {
+    width: 70px;
+    height: 70px;
+  }
+
+.row .col-lg-3 h4 {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: rgb(206, 107, 107);
+    text-align: center;
+  }
+
+
+
+.spc-group {
+    display: outside;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(7, 7, 7);
+    white-space: nowrap;
+    text-align: center;
+    box-shadow: #000000;  
+    background: rgb(243, 243, 243);
+    margin: 50px 10px 50px 10px;
+}
+
+
+.offer .spc-group #menu-flters li{
+    color:  rgba(185, 56, 56, 0.589);
+    font-family: cyrillic;
+    margin-right: 10px;
+
+}
+
+.offer .spc-group li[type="submit"]:hover {
+    color: rgb(236, 234, 234);
+    background:  rgba(185, 56, 56, 0.589);
+  }
+
+.offer #menu-flters {
+    display: flex;
+    margin-right: 20px;
+    place-self: center;
+    color: rgb(185, 56, 56);
+    border-bottom: 4px solid rgb(63, 7, 7);
+}
+
+
+.cards{
+  display: flex;
+  border-top: 7px solid rgb(185, 56, 56);
+  margin: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: rgba(185, 56, 56, 0.589);
+  font-family: cyrillic;
+} 
+
+.cards .card{
+  padding: 20px;
+}
+
+.cards img{
+  width: 250px;
+  height: 84px;
+  margin: 20px;
+  padding: 10px;
+  align-items:center;
+  justify-content: center;
+}
+
+
+.card {
+    margin: 10px;
+    background: local;
+    border: rgb(243, 243, 243);;
+    color: rgb(185, 56, 56);
+  }
+
+.cards .card a{
+    color:  rgba(185, 56, 56, 0.589);
+  }
+
+.cards .card a:hover{
+    color: rgb(185, 56, 56);
+
+  }
+
+.card img{
+  width: 100px;
+  height: 270px;
+  align-self: center;
+  margin: 20px;
+}
+
+
+
+.col-lg-4 .card {
+  margin: 10px;
+  background: local;
+  border: 1px solid #d16b78;
+  color: rgb(185, 56, 56);
+}
+
+.card-body {
+  align-self: center;
+  text-align: center;
+}
+
+.card-body a:hover{
+  color: rgb(236, 234, 234);
+  background:  rgba(185, 56, 56, 0.589);
+  
+}
+
+
+
+.context h2{
+  margin: 10px;
+  font-size: 30px;
+  border-bottom: 7px solid rgb(185, 56, 56);
+  color: rgb(185, 56, 56);
+}
+
+.context h3{
+  margin: 10px;
+  font-size: 30px;
+  color: rgb(185, 56, 56);
+}
+
+.context p{
+  margin: 10px;
+  font-size: 18px;
+  text-align: justify;  
+  font-family: cyrillic;
+  text-indent: 20px;
+}
+
+.context li{
+  margin: 20px;
+  font-size: 18px;
+  text-align: justify; 
+  font-family: cyrillic;
+  text-indent: 10px;
+
+}
+
+
+.good .desc_good {
+  display: flex;
+  border-top: 7px solid rgb(185, 56, 56);
+  margin: 10px;
+  text-align: left;
+  font-size: 14px;
+  font-family: cyrillic;
+}
+
+
+.good .desc_good p{
+  display: inline;
+  margin: 40px;
+  font-size: 20px;
+  font-family: cyrillic;
+  text-indent: 10px;
+}
+
+.good .desc_good img{
+  padding: 50px;
+  margin-right: 70px;
+  width: 300px;
+  height: 600px;
+}
+
+.good .desc_good .desc_good3 img{
+  width: 310px;
+  height: 150px;
+}
+.good .desc_good1 {
+  margin: 20px;
+  font-size: 30px;
+  font-family: cyrillic;
+  text-indent: 10px;
+}
+.good .desc_good2 {
+  margin: 30px;
+  font-size: 30px;
+  font-family: cyrillic;
+  text-indent: 10px;
+}
+
+
+.good .desc_good3 a{
+  margin-right: 40px;
+  font-size: 30px;
+  font-family: cyrillic;
+  text-indent: 10px;
+
+}
+
+
+
+.context table thead tr{
+  font-size: 15px;
+  border-bottom: 3px solid rgb(185, 56, 56);
+  color: rgb(185, 56, 56);
+  font-family: cyrillic;
+
+}
+
+.context table img{
+
+  width: 50px;
+  height: 150px;
+}
+
+.text-right {
+  text-align:right;
+}
+
+.order-form{
+  margin: 15px;
+}
+
+.order-form .col-lg-4{
+  margin-bottom: 15px;
+}
+
+.order {
+  margin: 15px;
+  padding: 5px;
+}
+
+
+.creditCardForm {
+  max-width: 700px;
+  overflow: hidden;
+}
+.creditCardForm label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.creditCardForm .payment {
+  float: left;
+  font-size: 12px;
+  margin-top: 10px;
+  position: relative;
+}
+.creditCardForm .payment .form-group {
+  float: left;
+  margin-bottom: 15px;
+}
+.creditCardForm .payment .form-control {
+  line-height: 30px;
+  height: auto;
+  padding: 0 16px;
+}
+.creditCardForm .owner {
+  width: 63%;
+  margin-right: 10px;
+}
+.creditCardForm .CVV {
+  width: 35%;
+}
+.creditCardForm #card-number-field {
+  width: 100%;
+}
+.creditCardForm #expiration-date {
+  width: 49%;
+}
+.creditCardForm #credit_cards {
+  width: 50%;
+  margin-top: 25px;
+  text-align: right;
+}
+.creditCardForm #pay-now {
+  width: 100%;
+  margin-top: 25px;
+}
+.creditCardForm .payment .btn {
+  width: 100%;
+  margin-top: 3px;
+  font-size: 24px;
+  background-color: #2ec4a5;
+  color: white;
+}
+.creditCardForm .payment select {
+  padding: 10px;
+  margin-right: 15px;
+}
+.transparent {
+  opacity: 0.2;
+}
+
+
+
+.menu .container-fluid {
+  display: flex;
+}
+
+.menu .row .col-lg-2 {
+  display: flex;
+}
+
+.menu .container .row {
+  display: block;
+  width: 1100px;
+
+}
+
+.menu #menu-flters {
+  list-style: none;
+  text-align: left;
+}
+
+.menu #menu-flters li {
+  cursor: pointer;
+  display: block;
+  width: 150px;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: rgb(185, 56, 56);
+  margin: 0 3px 10px 3px;
+  background: local;
+  align-self: left;
+}
+
+.menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
+  color: rgba(255, 162, 162, 0.589);
+}
+
+.menu #menu-flters li:last-child {
+  margin-right: 0;
+}
+
+.border_ {
+
+    border-bottom: 4px solid rgb(63, 7, 7);
+}
+

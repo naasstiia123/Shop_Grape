@@ -1,0 +1,57 @@
+{% extends 'project.html' %}
+ {% load static %}
+ {% block content %}
+<section>
+            <div class="good">
+                <div>
+                    <h2>{{ product.name }}</h2>
+                    <div>
+                        <div class="desc_good">
+                            <img class="col-lg-6 d-none d-lg-block" src="{{ product.photo.url }}" alt="">
+                            <div class="desc_good1">
+                              <div class="desc_good2">
+                                <div class="desc_good3">
+                                  <a>₴{{ product.price }}</a>
+                                    {% if product.is_available %}
+{#                                        <p>Доступний для замовлення</p>#}
+                                        <img class="desc_good3" src="{% static "assets/img/Dostupnij-dlya-zamovlennya-transformed.png" %}" alt="" >
+                                    {% else %}
+                                        <img class="desc_good3" src=
+                                                "{% static "assets/img/nemaye-v-nayavnosti-transformed.png" %}" alt="">
+                                    {% endif %}
+                                  <a>Код товару: {{ product.item }}</a>
+                                </div>
+                              {% if product.is_available %}
+                              <a href="{% url "cart:add_product" product.id %}" class="btn btn-primary">Купити</a>
+                              {% endif %}
+                            </div>
+                              <p class="col-lg-8 d-none d-lg-block">{{ product.description }}</p><br>
+
+                            <h4>Залишити відгук</h4>
+                                <div>
+                                    <form method="post">
+                                        {% csrf_token %}
+                                      <div class="col-lg-4 col-md-6 form-group">
+                                        {{ form.name }}
+                                      </div>
+                                      <div class="form-group mt-3">
+                                          {{form.message}}
+                                      </div>
+                                        <button class="btn btn-primary" type="submit">Опублікувати</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6" >
+                            <p>NAME</p>
+                            <p>FEEDBACK slfdld;;l;d,fdlfd;sfd,bgfmkjdgofsdl,cvmjfkodsl,mvnjfksdol,vmjkfsdol,mvjfkdls,
+                                mvfkd
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+ {% endblock %}

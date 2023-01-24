@@ -1,0 +1,10 @@
+ <section>
+    <div class="row">
+        {% for item in advantage %}
+            <div class="col-lg-3 mt-3 mt-lg-0">
+                <img src="{{ item.photo.url }}" alt="">
+                <h4>{{ item.desc }}</h4>
+            </div>
+        {% endfor %}
+    </div>
+</section>

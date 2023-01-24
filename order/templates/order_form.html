@@ -1,0 +1,92 @@
+{% extends 'project.html' %}
+{% block bare_content %}
+<section class="order">
+    <div class="context">
+    <h2>Оформлення замовлення</h2>
+    
+    <div class="col-lg-8">
+        <h3>Ваше замовлення</h3>
+    <table class="table table-hover"  width="500px">
+      <thead>
+          <tr>
+              <th>№</th>
+              <th>Назва товару</th>
+              <th>Кількість</th>
+              <th>Ціна</th>
+              <th>Вартість</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for item in cart %}
+          <tr>
+            <th scope="row">{{ forloop.counter }}</th>
+           
+              <td>
+                  {{ item.product.name }}
+              </td>
+              <td>
+                  {{ item.quantity }}
+              </td>
+              <td class="num">
+                  {{ item.price }}
+              </td>
+              <td class="num">
+                  {{ item.total_price }}
+              </td>
+          </tr>
+        {% endfor %}
+
+            <tr class="total">
+              <td>
+                  Total
+              </td>
+              <td colspan="3">
+              </td>
+              <td class="num">
+                  {{ cart.get_total_price }}
+              </td>
+          </tr> 
+        </tbody>
+    </table>
+    </div>
+</div>
+
+    <form method="POST">
+        {% csrf_token %}
+
+      <h3>Контактна інформація</h3>
+        <div class="order-form">
+            <div class="order-form">
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                   {{ form.name }}
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                  {{ form.last_name }}
+              </div>
+            </div>
+            <div class="order-form">
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                   {{ form.email }}
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                  {{ form.phone }}
+              </div>
+        </div>
+            <div class="order-form">
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                   {{ form.city }}
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                  {{ form.department }}
+              </div>
+              <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                  {{ form.pay_method }}
+              </div>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Замовити</button>
+        </div>
+    </form>
+
+</section>
+{% endblock %}

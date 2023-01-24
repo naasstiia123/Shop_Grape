@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ukr">
+    <head>
+        <title>Grape</title>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static "assets/css/style.css" %}">
+    </head>
+    <body>
+
+<!--===Top part===-->  
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="{% url 'main_page:main' %}"><img src="{% static "assets/img/Grape-depositphotos-bgremover.png" %}" class="grape"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Про нас</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'conditions:delivery' %}">Оплата і доставка</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'conditions:swap' %}">Обмін та повернення</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Контактна інформація</a>
+                </li>
+
+                  {% if 'Managers' in user.groups.all.0.name %}
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Менеджер
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="{% url "manager:orders" %}">Замовлення</a></li>
+                            <li><a class="dropdown-item" href="{% url "manager:feedback" %}">Відгуки</a></li>
+                          </ul>
+                      </li>
+
+                    {% endif %}
+                    <div class="navbar-nav" >
+                        {% if not user.is_active %}
+                            <li class="nav-item">
+                          <a class="nav-link" href="{% url "account:login" %}">Вхід</a>
+                            </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="{% url "account:registration" %}">Реєстрація</a>
+                            </li>
+                        {% else %}
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url "account:logout" %}">Вихід</a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </section><!--=== End top part ===-->
+
+{% block bare_content %}
+ 
+<!--===Search in site===-->  
+      <section>
+        <div class="container-fluid1">
+            <form class="col-lg-10 d-flex" action="{% url "main_page:search_results" %}" method="get">
+                <input class="form-control me-2" name="q" type="search" placeholder="Пошук" aria-label="search">
+                <button class="btn btn-outline-success" type="submit">Пошук</button>
+
+            {% with quantity=cart|length %}
+                 {% if cart|length >= 0 %}
+                 <a href="{% url "cart:cart" %}"> <img src="{% static "assets/img/cart-transformed.png" %}" width="50px" height="30px"
+                     alt=""></a>
+                <a href="{% url "cart:cart" %}" type="submit">
+                    {{ quantity }}, ₴{{ cart.get_total_price }}</a>
+                     {% endif %}
+                    {% endwith %}
+            </form>
+
+        </div>
+      </section><!--End search-->
+
+<!--===Groups of goods===-->
+      <section>
+        <div class="btn-group">
+            {% for cat in category %}
+                <a href="{{ cat.get_absolute_url }}" class="btn btn-primary" type="submit">{{ cat.name }}</a>
+            {% endfor %}
+          </div>
+        </section><!--===End groups-->
+
+
+{% block content %}
+{% endblock %}
+{% endblock %}
+<!--===Bottom part===-->
+    <section id="contact">
+      <div class="cards">
+
+        <div class="">
+            <img src="{% static "assets/img/Grape-depositphotos-bgremover.png" %}" alt="">
+        </div>
+
+        <div class="card">
+            <p class="">Каталог</p>
+            {% for cat in category %}
+                <a href="#" class="" type="submit">{{ cat.name }}</a>
+            {% endfor %}
+        </div>
+
+        <div class="card">
+          
+          <p class="" >Клієнтам</p> 
+          <a href="#" class="" type="submit">Про нас</a>  
+          <a href="{% url 'conditions:delivery' %}" class="" type="submit">Оплата і доставка</a>
+          <a href="{% url 'conditions:swap' %}" class="" type="submit">Обмін та повернення</a>
+
+        </div>
+
+        <div class="card">
+          
+          <p class="" >Контактна інформація</p>
+            {% for number in phone %}
+                <a href="" class="" type="submit">{{ number.phone }}</a>
+            {% endfor %}
+        </div>
+
+        <div class="card">
+            {% for number in phone %}
+                {% if number.is_viber %}
+                    <a href="#" class="" type="submit">viber {{ number }}</a>
+                {% endif %}
+                {% if number.is_telegram %}
+                    <a href="#" class="" type="submit">telegram {{ number }}</a>
+                {% endif %}
+            {% endfor %}
+
+            {% for mail in mail %}
+                <a href="{{mail.email}}" class="" type="submit">{{mail.email}}</a>
+            {% endfor %}
+
+            {% for loc in location %}
+                <a href="#" class="" type="submit">{{ loc.address }}</a>
+            {% endfor %}
+
+        </div>
+    </div>
+    </section><!--===End bottom===-->   
+
+{#      <!-- Vendor JS Files -->#}
+  <script src="{% static "assets/vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+  <script src="{% static "assets/vendor/glightbox/js/glightbox.min.js" %}"></script>
+  <script src="{% static "assets/vendor/isotope-layout/isotope.pkgd.min.js" %}"></script>
+  <script src="{% static "assets/vendor/swiper/swiper-bundle.min.js" %}"></script>
+{#  <script src="assets/vendor/php-email-form/validate.js"></script>#}
+{#  <!-- Template Main JS File -->#}
+{#  <script src="assets/js/main.js"></script>#}
+
+
+     <script src="{% static "assets/vendor/isotope-layout/isotope.pkgd.min.js" %}"></script>
+
+
+  <!-- Template Main JS File -->
+    <script src="{% static "assets/vendor/main.js" %}"></script>
+
+
+    </body>
+</html>

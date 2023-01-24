@@ -1,0 +1,43 @@
+{% extends 'project.html' %}
+{% block content %}
+<section id="menu" class="menu">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2">
+          <ul id="menu-flters">
+            <li data-filter="*" class="filter-active">Показати всі</li>
+              {% for type in type %}
+            <li data-filter=".filter-{{ type.pk }}">{{ type.name }}</li>
+              {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="row menu-container">
+
+        <div class="container">
+          <div class="row">
+               {% for product in product %}
+                    <div class="col-lg-4 menu-item filter-{{ product.type.pk }}">
+                      <div class="card">
+                          <img src="{{ product.photo.url }}" class="card-img-top" alt=""/>
+                          <div class="card-body">
+                            <h5 class="card-title">₴ {{ product.price }}</h5>
+                            <p class="card-text">
+                                {{ product.name }}
+                            </p>
+                            <a href="#!" class="btn btn-primary">Купити</a>
+                            <a href="{{ product.get_absolute_url }}" class="btn btn-primary">Детальніше</a>
+                          </div>
+                      </div>
+                    </div>
+              {% endfor %}
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+</section>
+{% endblock %}
