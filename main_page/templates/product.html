@@ -42,13 +42,13 @@
                                 </div>
                             </div>
                         </div>
+                    {% for item in feedback %}
                         <div class="col-lg-4 col-md-6" >
-                            <p>NAME</p>
-                            <p>FEEDBACK slfdld;;l;d,fdlfd;sfd,bgfmkjdgofsdl,cvmjfkodsl,mvnjfksdol,vmjkfsdol,mvjfkdls,
-                                mvfkd
+                            <p>{{ item.name }} {{ item.date }}</p>
+                            <p>{{ item.message }}
                             </p>
                         </div>
-
+                    {% endfor %}
                     </div>
                 </div>
 

@@ -17,7 +17,7 @@ def orders_view(request):
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def feedback_views(request):
-    feedback = Feedback.objects.filter(is_processed=False)
+    feedback = Feedback.objects.filter(is_visible=True)
     return render(request, 'feedback_manager.html', context={'feedback': feedback})
 
 

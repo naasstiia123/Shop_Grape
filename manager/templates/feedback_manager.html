@@ -1,21 +1,21 @@
 {% extends 'project.html' %}
 {% block bare_content %}
-    <section id="feedback">
+<section id="feedback">
     <div class="container">
         <div class="col-ad-10 col-ad-offset-1">
+        <h3>Відгуки </h3>
             {% for item in feedback %}
                 <div class="context">
                     <h2></h2>
                 </div>
-                <h3>Замовлення {{ order.pk }}</h3>
                 <div class="row">
-                    <div class="col-nd-3">{{ item.name }}</div>
-                    <div class="col-nd-3">{{ item.message }}</div>
-                    <div class="col-nd-3">{{ item.date }}</div>
-                    <div class="col-nd-3">{{ item.product.name }}</div>
+                    <div class="col-nd-6">Ім'я: {{ item.name }}</div>
+                    <div class="col-nd-6">Відгук: {{ item.message }}</div>
+                    <div class="col-nd-6">Дата відгуку: {{ item.date }}</div>
+                    <div class="col-nd-6">Товар: <a href="{{ item.product.get_absolute_url }}">{{ item.product }}</a></div>
                 </div>
-                <div class="col-nd-3">
-                    <a href="{% url 'manager:update_feedback' pk=feedback.pk %}">
+                <div class="col-nd-6">
+                    <a href="{% url 'manager:update_feedback' pk=item.pk %}">
                         <button type="button" class="btn btn-primary">Приховати</button>
                     </a>
                 </div><br>

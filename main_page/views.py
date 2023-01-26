@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 import random
-from .models import Product, Slider, Advantage, Offer, Gallery, Category_good,Type_good
+from .models import Product, Slider, Advantage, Offer, Gallery, Category_good, Type_good, Feedback
 from cart.cart import Cart
 from django.db.models import Q
 from django.views.generic import ListView
@@ -26,13 +26,13 @@ def product(request, id, slug):
         form = FeedbackForm(request.POST)
         if form.is_valid():
             form.save(commit=False)
-            form.product = id
+            form.instance.product_id = id
             form.save()
             form.clean()
-
     form = FeedbackForm()
     products = get_object_or_404(Product, id=id, slug=slug, is_visible=True)
-    return render(request, 'product.html', context={'product': products, 'form': form})
+    feedback = Feedback.objects.filter(product_id=id, is_visible=True)
+    return render(request, 'product.html', context={'product': products, 'form': form, 'feedback': feedback})
 
 def menu_product(request, id):
     category = get_object_or_404(Category_good, id=id, is_visible=True)
