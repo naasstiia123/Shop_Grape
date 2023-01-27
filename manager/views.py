@@ -12,7 +12,9 @@ def is_manager(user):
 def orders_view(request):
     order = Order.objects.filter(is_processed=False)
     items = OrderItems.objects.all()
+        # items = OrderItems.objects.get(order_id=pk)
     return render(request, 'orders_manager.html', context={'order': order, 'items': items})
+
 
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)

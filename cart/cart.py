@@ -2,6 +2,7 @@ from django.conf import settings
 from main_page.models import Product
 from decimal import Decimal
 
+
 class Cart:
 
     def __init__(self, request):
@@ -14,6 +15,7 @@ class Cart:
             # save an empty cart in the session
             cart = self.session[settings.CART_SESSION_ID] = {}
         self.cart = cart
+
 
     def add(self, product, quantity=1, update_quantity=False):
         """

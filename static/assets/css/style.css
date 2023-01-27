@@ -170,10 +170,14 @@ body {
 
 .offer #menu-flters {
     display: flex;
-    margin-right: 20px;
+    margin-right: 40px;
     place-self: center;
     color: rgb(185, 56, 56);
     border-bottom: 4px solid rgb(63, 7, 7);
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    text-align: center;
 }
 
 
@@ -361,69 +365,9 @@ body {
   padding: 5px;
 }
 
-
-.creditCardForm {
-  max-width: 700px;
-  overflow: hidden;
-}
-.creditCardForm label {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.creditCardForm .payment {
-  float: left;
-  font-size: 12px;
-  margin-top: 10px;
-  position: relative;
-}
-.creditCardForm .payment .form-group {
-  float: left;
-  margin-bottom: 15px;
-}
-.creditCardForm .payment .form-control {
-  line-height: 30px;
-  height: auto;
-  padding: 0 16px;
-}
-.creditCardForm .owner {
-  width: 63%;
-  margin-right: 10px;
-}
-.creditCardForm .CVV {
-  width: 35%;
-}
-.creditCardForm #card-number-field {
-  width: 100%;
-}
-.creditCardForm #expiration-date {
-  width: 49%;
-}
-.creditCardForm #credit_cards {
-  width: 50%;
-  margin-top: 25px;
-  text-align: right;
-}
-.creditCardForm #pay-now {
-  width: 100%;
-  margin-top: 25px;
-}
-.creditCardForm .payment .btn {
-  width: 100%;
-  margin-top: 3px;
-  font-size: 24px;
-  background-color: #2ec4a5;
-  color: white;
-}
-.creditCardForm .payment select {
-  padding: 10px;
-  margin-right: 15px;
-}
 .transparent {
   opacity: 0.2;
 }
-
-
 
 .menu .container-fluid {
   display: flex;

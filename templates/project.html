@@ -36,14 +36,15 @@
                 </li>
 
                   {% if 'Managers' in user.groups.all.0.name %}
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Менеджер
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="{% url "manager:orders" %}">Замовлення</a></li>
-                            <li><a class="dropdown-item" href="{% url "manager:feedback" %}">Відгуки</a></li>
-                          </ul>
+                      <li class="nav-item">
+                          <a class="nav-link">Менеджер &#5125;</a>
+                      </li>
+                      <li class="nav-item">
+                            <li><a class="nav-link" href="{% url "manager:orders" %}">Замовлення</a></li>
+                      </li>
+                      <li class="nav-item">
+                            <li><a class="nav-link" href="{% url "manager:feedback" %}">Відгуки</a></li>
+
                       </li>
 
                     {% endif %}
