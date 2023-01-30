@@ -42,13 +42,13 @@ def menu_product(request, id):
                                                          'product': product})
 
 class Search(ListView):
+    model = Product
 
     def get_queryset(self):
-        object_list = Product.objects.filter(Q(name__icontains=self.request.GET.get('q')) | Q(slug__icontains=self.request.GET.get('q')) | Q(
-            item__icontains=self.request.GET.get('q')) | Q(category__name__icontains=self.request.GET.get('q')))
+        query = self.request.GET.get("q")
+        query_title = query.title()
+        object_list = Product.objects.filter(Q(name__icontains=query_title) | Q(slug__icontains=query) | Q(
+            item__icontains=query) | Q(category__name__icontains=query_title)
+            | Q(type__name__icontains=query_title))
         return object_list
 
-    def get_context_data(self, *args, **kwargs):
-        context = super().get_context_data(*args, **kwargs)
-        context['q'] = self.request.GET.get('q')
-        return context

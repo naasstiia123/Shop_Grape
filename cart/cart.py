@@ -31,6 +31,8 @@ class Cart:
         self.save()
 
     def save(self):
+        #update session cart
+        self.session[settings.CART_SESSION_ID] = self.cart
         # mark the session as "modified" to make sure it gets saved
         self.session.modified = True
 

@@ -72,6 +72,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'cart.context_processor.cart',
                 'main_page.context_processor.getting_category',
                 'main_page.context_processor.getting_number',
                 'main_page.context_processor.getting_mail',

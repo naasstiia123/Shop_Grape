@@ -1,6 +1,9 @@
 {% extends 'project.html' %}
 {% block content %}
-    <h1>Thank you</h1>
-    <p>Your order has been successfully completed.</p>
-    <p>Your order number is <strong>{{ order.id }}</strong>.</p>
+    <div class="context">
+        <h2>Замовлення сформовано</h2>
+        <p>Дякуємо що обрали Нас!</p>
+        <p>Ваш номер замовлення - <strong>{{ order.id }}</strong>.</p>
+        <p>Наш менеджер з Вами зв'яжеться для уточнення деталей.</p>
+    </div>
 {% endblock %}

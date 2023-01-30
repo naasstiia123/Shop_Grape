@@ -1,5 +1,6 @@
 from django import forms
 from .models import Order, City, Department, PayMethod
+from main_page.models import Product
 
 class OrderForm(forms.ModelForm):
 
@@ -43,12 +44,14 @@ class OrderForm(forms.ModelForm):
     city = forms.ModelChoiceField(queryset=City.objects.filter(is_visible=True), label='Місто')
 
     department = forms.ModelChoiceField(queryset=Department.objects.filter(is_visible=True),
-    label='Відділення пошти',)
+    label='Відділення пошти')
 
     pay_method = forms.ModelChoiceField(queryset=PayMethod.objects.filter(is_visible=True), label='Спосіб оплати')
+
 
     class Meta:
 
         model = Order
         fields = ['name', 'last_name', 'email',
                   'phone', 'city', 'department', 'pay_method']
+

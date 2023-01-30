@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 from order.models import Order, OrderItems
 from main_page.models import Feedback
 
+
 # Create your views here.
 def is_manager(user):
     return user.groups.filter(name='Managers').exists()
@@ -12,7 +13,7 @@ def is_manager(user):
 def orders_view(request):
     order = Order.objects.filter(is_processed=False)
     items = OrderItems.objects.all()
-        # items = OrderItems.objects.get(order_id=pk)
+    items = OrderItems.objects.all()
     return render(request, 'orders_manager.html', context={'order': order, 'items': items})
 
 
@@ -40,4 +41,6 @@ def paid_order(request, pk):
 def update_feedback(request, pk):
     Feedback.objects.filter(pk=pk).update(is_visible=False)
     return redirect('manager:feedback')
+
+
 
