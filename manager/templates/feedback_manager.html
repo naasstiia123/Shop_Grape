@@ -9,10 +9,10 @@
                     <h2></h2>
                 </div>
                 <div class="row">
-                    <div class="col-nd-6">Ім'я: {{ item.name }}</div>
-                    <div class="col-nd-6">Відгук: {{ item.message }}</div>
-                    <div class="col-nd-6">Дата відгуку: {{ item.date }}</div>
-                    <div class="col-nd-6">Товар: <a href="{{ item.product.get_absolute_url }}">{{ item.product }}</a></div>
+                    <div class="col-nd-6"><b>Ім'я:</b> {{ item.name }}</div>
+                    <div class="col-nd-6"><b>Відгук:</b> {{ item.message }}</div>
+                    <div class="col-nd-6"><b>Дата відгуку:</b> {{ item.date|date:"d.m.o, G:i"  }}</div>
+                    <div class="col-nd-6"><b>Товар:</b> <a href="{{ item.product.get_absolute_url }}">{{ item.product }}</a></div>
                 </div>
                 <div class="col-nd-6">
                     <a href="{% url 'manager:update_feedback' pk=item.pk %}">

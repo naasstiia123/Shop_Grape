@@ -9,20 +9,21 @@
                 </div>
                 <h3>Замовлення {{ order.pk }}</h3>
                 <div class="row">
-                    <div class="col-nd-3">{{ order.name }}</div>
-                    <div class="col-nd-3">{{ order.last_name }}</div>
-                    <div class="col-nd-3">{{ order.email }}</div>
-                    <div class="col-nd-3">{{ order.phone }}</div>
-                    <div class="col-nd-3">{{ order.city }}</div>
-                    <div class="col-nd-3">{{ order.department }}</div>
-                    <div class="col-nd-3">{{ order.pay_method }}</div>
-                    <div class="col-nd-3">{{ order.created }}</div>
-                    {% if order.paid %}
-                        <div class="col-nd-3">Оплаченно</div>
-                    {% else %}
-                        <div class="col-nd-3">Очікує оплати</div>
-                    {% endif %}
-                </div>
+                    <div class="col-nd-3"><p><b>Ім'я:</b> {{ order.name }}</p></div>
+                    <div class="col-nd-3"><p><b>Прізвище:</b> {{ order.last_name }}</p></div>
+                    <div class="col-nd-3"><p><b>Електронна адреса:</b> {{ order.email }}</p></div>
+                    <div class="col-nd-3"><p><b>Номер телефону:</b> {{ order.phone }}</p></div>
+                    <div class="col-nd-3"><p><b>Місто:</b> {{ order.city }}</p></div>
+                    <div class="col-nd-3"><p><b>Відділення нової пошти:</b> {{ order.department }}</p></div>
+                    <div class="col-nd-3"><p><b>Спосіб оплати: </b>{{ order.pay_method }}</p></div>
+                    <div class="col-nd-3"><p><b>Дата та час замовлення:</b> {{ order.created }}</p></div>
+
+                    <div class="col-nd-3"><b>Статус оплати:</b>
+                        {% if order.paid %} <strong>Оплаченно</strong>
+                        {% else %} <strong>Очікує оплати</strong>
+                        {% endif %}
+                    </div>
+
                 <div class="row">
                         <div class="col-lg-8">
 
