@@ -1,13 +1,17 @@
 from django.shortcuts import render
-from .models import Swap, Conditiont_swap, Delivery
+from .models import Swap, Conditiont_swap, Delivery, About
 
 # Create your views here.
 def condition_delivery(request):
-    conditions = Delivery.objects.all()
+    conditions = Delivery.objects.filter(is_visible=True)
     return render(request, 'context.html', context={'condition': conditions})
 
 def condition_swap(request):
-    swap = Swap.objects.all()
-    conditions = Conditiont_swap.objects.all()
+    swap = Swap.objects.filter(is_visible=True)
+    conditions = Conditiont_swap.objects.filter(is_visible=True)
     return render(request, 'context1.html', context={'swap': swap,
                                                      'conditions': conditions})
+
+def about(request):
+    about = About.objects.filter(is_visible=True)
+    return render(request, 'about.html', context={'about': about})

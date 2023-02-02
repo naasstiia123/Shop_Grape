@@ -1,0 +1,17 @@
+{% extends 'project.html' %}
+{% block content %}
+    <!--===Context===-->
+    <section>
+        <div class="context">
+            <h2>Про Grape</h2>
+           <!--===Context===-->
+    <section>
+        <div class="context">
+            {% for item in about %}
+                <p> {{ item.about }}</p>
+            {% endfor %}
+        </div>
+    </section>
+        </div>
+    </section>
+{% endblock %}
