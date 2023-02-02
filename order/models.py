@@ -58,7 +58,7 @@ class Order(models.Model):
         for item in self.items.all():
             res += item.get_coast()
         return res
-        # return sum(item.get_coast() for item in self.items.all())
+
 
 class OrderItems(models.Model):
     order = models.ForeignKey(Order, related_name='items', on_delete=models.CASCADE)

@@ -159,14 +159,10 @@ body {
 .offer .spc-group #menu-flters li{
     color:  rgba(185, 56, 56, 0.589);
     font-family: cyrillic;
-    margin-right: 10px;
+    margin-right: 25px;
+    list-style-type: none;
 
 }
-
-.offer .spc-group li[type="submit"]:hover {
-    color: rgb(236, 234, 234);
-    background:  rgba(185, 56, 56, 0.589);
-  }
 
 .offer #menu-flters {
     display: flex;

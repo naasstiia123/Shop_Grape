@@ -33,6 +33,7 @@
                                   <th>Кількість</th>
                                   <th>Ціна</th>
                                   <th>Вартість</th>
+                                  <th>Видалити</th>
                               </tr>
                             </thead>
                             <tbody>
@@ -44,7 +45,12 @@
                                       {{ item.product.name }}
                                   </td>
                                   <td>
-                                      {{ item.quantity }}
+                                       <form action="{% url 'manager:update_order_quantity' item.pk %}" method="post">
+                                            {% csrf_token %}
+                                            {{ item.quantity }}
+                                            {{ form_quantity.quantity }}
+                                            <input type="submit" class="btn btn-primary" value="Змінити">
+                                        </form>
                                   </td>
                                   <td class="num">
                                       {{ item.price }}
@@ -52,11 +58,29 @@
                                   <td class="num">
                                       {{ item.get_coast }}
                                   </td>
+                                  <td>
+                                      <a class="btn btn-primary" href="
+                                    {% url 'manager:del_order_items' item=item.pk %}">X</a>
+                                  </td>
                               </tr>
                                 {% endif %}
                             {% endfor %}
-
-
+                            <form method="post" action="{% url 'manager:update_order_items' pk=order.pk %}">
+                                {% csrf_token %}
+                                <tr>
+                                  <td>
+                                    {{ form.product }}
+                                  </td>
+                                    <td>
+                                    {{ form.quantity }}
+                                  </td>
+                                  <td >
+                                  </td>
+                                  <td class="num">
+                                      <input class="btn btn-primary" type="submit" value="Додати до замовлення">
+                                  </td>
+                              </tr>
+                                </form>
                                 <tr class="total">
                                   <td>
                                       Всього

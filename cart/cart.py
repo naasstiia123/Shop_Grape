@@ -1,6 +1,6 @@
+from decimal import Decimal
 from django.conf import settings
 from main_page.models import Product
-from decimal import Decimal
 
 
 class Cart:
@@ -16,7 +16,6 @@ class Cart:
             cart = self.session[settings.CART_SESSION_ID] = {}
         self.cart = cart
 
-
     def add(self, product, quantity=1, update_quantity=False):
         """
         Add a product to the cart or update its quantity.
@@ -31,8 +30,6 @@ class Cart:
         self.save()
 
     def save(self):
-        #update session cart
-        self.session[settings.CART_SESSION_ID] = self.cart
         # mark the session as "modified" to make sure it gets saved
         self.session.modified = True
 
@@ -75,4 +72,3 @@ class Cart:
         Count all items in the cart.
         """
         return sum(item['quantity'] for item in self.cart.values())
-

@@ -1,6 +1,6 @@
 from django import forms
 from .models import Order, City, Department, PayMethod
-from main_page.models import Product
+
 
 class OrderForm(forms.ModelForm):
 
