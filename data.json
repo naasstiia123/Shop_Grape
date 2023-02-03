@@ -638,17 +638,18 @@
 },
 {
     "model": "admin.logentry",
-    "pk": 51,
+    "pk": 50,
     "fields": {
-        "action_time": "2023-01-19T12:36:24.606Z",
+        "action_time": "2023-01-19T12:35:02.854Z",
         "user": 1,
         "content_type": 17,
         "object_id": "7",
         "object_repr": "Київ",
-        "action_flag": 2,
-        "change_message": "[{\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 6\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 7\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 8\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 9\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 10\"}}]"
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 3\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 4\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 5\"}}]"
     }
 },
+
 {
     "model": "admin.logentry",
     "pk": 52,
