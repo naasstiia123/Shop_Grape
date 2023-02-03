@@ -12,7 +12,7 @@ def main(request):
     slide = Slider.objects.filter(is_visible=True)
     advantage = Advantage.objects.filter(is_visible=True)
     offer = Offer.objects.filter(is_visible=True)
-    gallery = random.sample(list(Gallery.objects.filter(is_visible=True)), 6)
+    gallery = Gallery.objects.filter(is_visible=True)
     cart = Cart(request)
     return render(request, 'main.html', context={'products': products,
                                                  'slide': slide,
