@@ -1,0 +1,5166 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-01-09T10:53:51.444Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Slider object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-01-09T10:54:02.505Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Slider object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-01-09T10:54:10.526Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Slider object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-01-09T11:06:56.366Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Gallery object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-01-09T11:06:59.621Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Gallery object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-01-09T11:07:03.154Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Gallery object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-01-09T11:07:08.385Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Gallery object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-01-09T11:07:12.934Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Gallery object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-01-09T11:07:17.190Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Gallery object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-01-09T11:07:21.108Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Gallery object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-01-09T11:07:53.063Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Хіт продажів",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-01-09T11:08:05.714Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Новинки",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-01-09T11:08:21.068Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Спеціальна пропозиція",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-01-09T11:08:50.739Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Якісна продукція",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-01-09T11:09:01.869Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Обмін та повернення",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-01-09T11:09:10.937Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Оплата при отримані",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-01-09T11:09:20.223Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Швидка доставка",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-01-09T12:34:36.492Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Вино 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-01-09T12:34:46.349Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Міцні напої 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-01-09T12:35:08.426Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Лікери, вермути 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-01-09T12:35:20.902Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Пиво 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-01-09T12:35:34.871Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Безалкогольні напої 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-01-09T12:35:44.836Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Аксесуари 6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-01-09T12:36:07.380Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Текіла 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-01-09T12:36:17.402Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Віскі 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-01-09T12:36:31.236Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "Ром 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-01-09T12:38:11.324Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Текіла Olmeca 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-01-09T12:49:40.757Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Віскі Jameson 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-01-13T16:53:17.364Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Ром Captain-Morgan 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-01-13T16:54:15.062Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Ром Real Rom 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-01-13T16:54:55.955Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Ром білий Bacardi 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-01-13T16:56:04.323Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "Ігристі вина 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-01-13T16:56:08.774Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Silver Breeze 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-01-13T16:57:01.039Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Henkel brut 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-01-13T16:58:36.552Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "5",
+        "object_repr": "Білі вина 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-01-13T16:58:40.324Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Yellow tail Pinot Grigio 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-01-16T17:58:18.138Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "grape@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-01-16T17:58:56.416Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "grape_manager@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-01-16T17:59:27.647Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "grape_support@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-01-16T17:59:53.960Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "+380630000001",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-01-16T18:00:05.759Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "+380630000002",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-01-16T18:00:36.388Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "+380670000001",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-01-16T18:00:47.827Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Location",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-01-19T12:26:27.486Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Вінниця",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0412\\u0456\\u043d\\u043d\\u0438\\u0446\\u044f 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0412\\u0456\\u043d\\u043d\\u0438\\u0446\\u044f 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0412\\u0456\\u043d\\u043d\\u0438\\u0446\\u044f 3\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0412\\u0456\\u043d\\u043d\\u0438\\u0446\\u044f 4\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0412\\u0456\\u043d\\u043d\\u0438\\u0446\\u044f 5\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0412\\u0456\\u043d\\u043d\\u0438\\u0446\\u044f 6\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0412\\u0456\\u043d\\u043d\\u0438\\u0446\\u044f 7\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-01-19T12:29:03.661Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "Луцьк",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041b\\u0443\\u0446\\u044c\\u043a 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041b\\u0443\\u0446\\u044c\\u043a 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041b\\u0443\\u0446\\u044c\\u043a 3\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041b\\u0443\\u0446\\u044c\\u043a 4\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041b\\u0443\\u0446\\u044c\\u043a 5\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-01-19T12:30:04.918Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "Дніпро",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0414\\u043d\\u0456\\u043f\\u0440\\u043e 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0414\\u043d\\u0456\\u043f\\u0440\\u043e 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0414\\u043d\\u0456\\u043f\\u0440\\u043e 3\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0414\\u043d\\u0456\\u043f\\u0440\\u043e 4\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-01-19T12:31:36.104Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "Житомир",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0416\\u0438\\u0442\\u043e\\u043c\\u0438\\u0440 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0416\\u0438\\u0442\\u043e\\u043c\\u0438\\u0440 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0416\\u0438\\u0442\\u043e\\u043c\\u0438\\u0440 3\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-01-19T12:32:19.307Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "5",
+        "object_repr": "Ужгород",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0423\\u0436\\u0433\\u043e\\u0440\\u043e\\u0434 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0423\\u0436\\u0433\\u043e\\u0440\\u043e\\u0434 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0423\\u0436\\u0433\\u043e\\u0440\\u043e\\u0434 3\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-01-19T12:33:18.710Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "6",
+        "object_repr": "Запоріжжя",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0417\\u0430\\u043f\\u043e\\u0440\\u0456\\u0436\\u0436\\u044f 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0417\\u0430\\u043f\\u043e\\u0440\\u0456\\u0436\\u0436\\u044f 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u0417\\u0430\\u043f\\u043e\\u0440\\u0456\\u0436\\u0436\\u044f 3\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-01-19T12:35:02.854Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "7",
+        "object_repr": "Київ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 1\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 2\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 3\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 4\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 5\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-01-19T12:36:24.606Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "7",
+        "object_repr": "Київ",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 6\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 7\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 8\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 9\"}}, {\"added\": {\"name\": \"department\", \"object\": \"\\u041a\\u0438\\u0457\\u0432 10\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-01-19T12:52:12.774Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "Готівка при отриманні",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2023-01-19T12:52:33.158Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "Банківська картка",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2023-01-19T14:46:01.556Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Managers",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2023-01-19T14:46:18.237Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "manager",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2023-01-19T20:14:57.727Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Henkel brut 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Offer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2023-01-19T20:14:58.012Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "Silver Breeze 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Offer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2023-01-19T20:14:58.311Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "Yellow tail Pinot Grigio 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Offer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2023-01-19T20:14:58.589Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Текіла Olmeca 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Offer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2023-01-19T20:28:54.876Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "9",
+        "object_repr": "Vodka 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2023-01-19T20:30:06.633Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "BlaBla 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2023-01-24T13:29:35.359Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Henkel brut 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2023-01-24T13:31:04.839Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Henkel brut 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2023-01-25T13:33:18.943Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "2",
+        "object_repr": "Anna Ferat 0639794367",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is processed\"]}}, {\"added\": {\"name\": \"order items\", \"object\": \"Vodka 1\"}}, {\"added\": {\"name\": \"order items\", \"object\": \"\\u0412\\u0456\\u0441\\u043a\\u0456 Jameson 2\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2023-01-25T13:40:05.730Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "2",
+        "object_repr": "Anna Ferat 0639794367",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is processed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2023-01-25T13:40:12.411Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "Fyyfff fffffff 0639794367",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is processed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2023-01-25T14:36:26.669Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Managers",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2023-01-26T09:40:05.978Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "11",
+        "object_repr": "Віскі Jack Daniels 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2023-01-26T09:40:52.302Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "12",
+        "object_repr": "Текіла Sierra 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2023-01-26T09:42:23.949Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "13",
+        "object_repr": "Ром Dead Man's fingers raspberry 7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2023-01-26T09:44:02.280Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "14",
+        "object_repr": "Вино Misilla 8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2023-01-26T09:45:03.447Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "6",
+        "object_repr": "Червоні вина 7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2023-01-26T09:45:09.273Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Вино daMalta 9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2023-01-26T09:45:58.325Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "16",
+        "object_repr": "Вино Comte 12",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2023-01-26T09:47:49.585Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "7",
+        "object_repr": "Пиво 8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2023-01-26T09:47:52.208Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "17",
+        "object_repr": "Corona Extra 12шт 10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2023-01-26T09:51:11.827Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "18",
+        "object_repr": "Пиво Blanc 24 11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2023-01-26T09:52:06.532Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "19",
+        "object_repr": "Пиво Leffe 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2023-01-26T10:04:23.779Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "18",
+        "object_repr": "Пиво Blanc 24 11",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2023-01-27T09:04:34.118Z",
+        "user": 1,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "Delivery object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2023-01-27T09:05:08.755Z",
+        "user": 1,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Swap object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2023-01-27T09:05:35.906Z",
+        "user": 1,
+        "content_type": 23,
+        "object_id": "1",
+        "object_repr": "Conditiont_swap object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2023-01-27T09:05:44.222Z",
+        "user": 1,
+        "content_type": 23,
+        "object_id": "2",
+        "object_repr": "Conditiont_swap object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2023-01-27T09:05:52.496Z",
+        "user": 1,
+        "content_type": 23,
+        "object_id": "3",
+        "object_repr": "Conditiont_swap object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2023-01-27T09:05:59.609Z",
+        "user": 1,
+        "content_type": 23,
+        "object_id": "4",
+        "object_repr": "Conditiont_swap object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2023-01-27T09:06:05.578Z",
+        "user": 1,
+        "content_type": 23,
+        "object_id": "5",
+        "object_repr": "Conditiont_swap object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2023-02-01T11:33:34.722Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "Fyyfff fffffff 0639794367",
+        "action_flag": 2,
+        "change_message": "[{\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}, {\"deleted\": {\"name\": \"order items\", \"object\": \"Corona Extra 12\\u0448\\u0442 10\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2023-02-01T18:42:10.566Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Managers",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2023-02-02T13:53:27.529Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "20",
+        "object_repr": "Elysee 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2023-02-02T13:54:26.815Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "21",
+        "object_repr": "Sauvignon Rose 15",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2023-02-02T13:55:25.104Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "22",
+        "object_repr": "Capela 6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2023-02-02T13:56:15.069Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "23",
+        "object_repr": "Corona Extra 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2023-02-02T13:57:01.007Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "17",
+        "object_repr": "Corona Extra 12шт 10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2023-02-02T13:57:12.322Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "23",
+        "object_repr": "Corona Extra 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2023-02-02T13:59:30.669Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "24",
+        "object_repr": "Heineken 22",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2023-02-02T14:00:58.909Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "8",
+        "object_repr": "Газовані напої 9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2023-02-02T14:01:07.948Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "25",
+        "object_repr": "Fanta 0.33 10шт 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2023-02-02T14:01:45.360Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "26",
+        "object_repr": "Coca-cola clasic 0.33 10шт 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2023-02-02T14:02:57.642Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "26",
+        "object_repr": "Coca-cola clasic 0.33 10шт 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2023-02-02T14:08:14.966Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "26",
+        "object_repr": "Coca-cola clasic 0.33 10шт 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2023-02-02T14:10:01.792Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "27",
+        "object_repr": "Schweppes 12шт 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2023-02-02T14:11:11.679Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "27",
+        "object_repr": "Schweppes 12шт 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2023-02-02T15:49:21.471Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "9",
+        "object_repr": "Сік 10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2023-02-02T15:49:24.918Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "28",
+        "object_repr": "Наш сік мультивітамін 32",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2023-02-02T15:50:24.293Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "29",
+        "object_repr": "Сік Sandora апельсин-грейпфрут 21",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2023-02-02T15:51:57.876Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "9",
+        "object_repr": "Соки 10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2023-02-02T15:51:59.594Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "30",
+        "object_repr": "Сік Sandora апельсиновий 1л 13",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2023-02-02T15:52:59.483Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "28",
+        "object_repr": "Наш сік мультивітамін 32",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2023-02-02T15:54:01.658Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "24",
+        "object_repr": "Heineken 22",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2023-02-02T15:55:20.019Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "10",
+        "object_repr": "Посуд 11",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2023-02-02T15:55:23.253Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "31",
+        "object_repr": "Набір барного посуду 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2023-02-02T15:56:35.042Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "32",
+        "object_repr": "Келих винний 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2023-02-02T15:57:52.668Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "33",
+        "object_repr": "Склянка 10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2023-02-02T16:03:17.826Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "11",
+        "object_repr": "Лікери 12",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2023-02-02T16:03:22.272Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "34",
+        "object_repr": "Sheridan's лікер 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2023-02-02T16:04:00.388Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "35",
+        "object_repr": "Baileys лікер 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2023-02-02T16:05:06.124Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "36",
+        "object_repr": "Missis лікер 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2023-02-02T16:05:54.612Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "12",
+        "object_repr": "Вермути 13",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2023-02-02T16:05:55.918Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "37",
+        "object_repr": "Santo Stefano 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2023-02-02T16:06:25.173Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "38",
+        "object_repr": "ISSI вермут 6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2023-02-02T16:06:50.871Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "39",
+        "object_repr": "Martini вермут 7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2023-02-02T16:13:28.621Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "BlaBla 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is visible\", \"Is available\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2023-02-02T16:18:58.227Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "37",
+        "object_repr": "Santo Stefano 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2023-02-02T16:20:26.282Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "34",
+        "object_repr": "Sheridan's лікер 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2023-02-02T16:20:38.247Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "36",
+        "object_repr": "Missis лікер 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2023-02-02T16:22:55.235Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "35",
+        "object_repr": "Baileys лікер 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2023-02-02T16:23:17.156Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "38",
+        "object_repr": "ISSI вермут 6",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2023-02-02T16:23:29.250Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "39",
+        "object_repr": "Martini вермут 7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2023-02-02T16:24:28.771Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "23",
+        "object_repr": "Corona Extra 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2023-02-02T16:27:09.260Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "26",
+        "object_repr": "Coca-cola clasic 0.33 10шт 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2023-02-02T16:27:27.490Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "27",
+        "object_repr": "Schweppes 12шт 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2023-02-02T16:27:48.921Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "28",
+        "object_repr": "Наш сік мультивітамін 32",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2023-02-02T16:28:10.001Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "30",
+        "object_repr": "Сік Sandora апельсиновий 1л 13",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2023-02-02T16:28:17.125Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "29",
+        "object_repr": "Сік Sandora апельсин-грейпфрут 21",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2023-02-02T16:28:25.930Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "33",
+        "object_repr": "Склянка 10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2023-02-02T16:28:35.005Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "31",
+        "object_repr": "Набір барного посуду 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2023-02-02T16:28:46.814Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "32",
+        "object_repr": "Келих винний 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2023-02-02T16:29:17.845Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "33",
+        "object_repr": "Склянка 10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Offer\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2023-02-02T16:45:22.576Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "About object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2023-02-02T16:45:46.901Z",
+        "user": 1,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "About object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add address",
+        "content_type": 7,
+        "codename": "add_address"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change address",
+        "content_type": 7,
+        "codename": "change_address"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete address",
+        "content_type": 7,
+        "codename": "delete_address"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view address",
+        "content_type": 7,
+        "codename": "view_address"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add advantage",
+        "content_type": 8,
+        "codename": "add_advantage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change advantage",
+        "content_type": 8,
+        "codename": "change_advantage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete advantage",
+        "content_type": 8,
+        "codename": "delete_advantage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view advantage",
+        "content_type": 8,
+        "codename": "view_advantage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add category_good",
+        "content_type": 9,
+        "codename": "add_category_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change category_good",
+        "content_type": 9,
+        "codename": "change_category_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete category_good",
+        "content_type": 9,
+        "codename": "delete_category_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view category_good",
+        "content_type": 9,
+        "codename": "view_category_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add email_adress",
+        "content_type": 10,
+        "codename": "add_email_adress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change email_adress",
+        "content_type": 10,
+        "codename": "change_email_adress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete email_adress",
+        "content_type": 10,
+        "codename": "delete_email_adress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view email_adress",
+        "content_type": 10,
+        "codename": "view_email_adress"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add gallery",
+        "content_type": 11,
+        "codename": "add_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change gallery",
+        "content_type": 11,
+        "codename": "change_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete gallery",
+        "content_type": 11,
+        "codename": "delete_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view gallery",
+        "content_type": 11,
+        "codename": "view_gallery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add offer",
+        "content_type": 12,
+        "codename": "add_offer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change offer",
+        "content_type": 12,
+        "codename": "change_offer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete offer",
+        "content_type": 12,
+        "codename": "delete_offer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view offer",
+        "content_type": 12,
+        "codename": "view_offer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add phone",
+        "content_type": 13,
+        "codename": "add_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change phone",
+        "content_type": 13,
+        "codename": "change_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete phone",
+        "content_type": 13,
+        "codename": "delete_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view phone",
+        "content_type": 13,
+        "codename": "view_phone"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add slider",
+        "content_type": 14,
+        "codename": "add_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change slider",
+        "content_type": 14,
+        "codename": "change_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete slider",
+        "content_type": 14,
+        "codename": "delete_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view slider",
+        "content_type": 14,
+        "codename": "view_slider"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add type_good",
+        "content_type": 15,
+        "codename": "add_type_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change type_good",
+        "content_type": 15,
+        "codename": "change_type_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete type_good",
+        "content_type": 15,
+        "codename": "delete_type_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view type_good",
+        "content_type": 15,
+        "codename": "view_type_good"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 16,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 16,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 16,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 16,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add city",
+        "content_type": 17,
+        "codename": "add_city"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change city",
+        "content_type": 17,
+        "codename": "change_city"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete city",
+        "content_type": 17,
+        "codename": "delete_city"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view city",
+        "content_type": 17,
+        "codename": "view_city"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add department",
+        "content_type": 18,
+        "codename": "add_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change department",
+        "content_type": 18,
+        "codename": "change_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete department",
+        "content_type": 18,
+        "codename": "delete_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view department",
+        "content_type": 18,
+        "codename": "view_department"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add order",
+        "content_type": 19,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change order",
+        "content_type": 19,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete order",
+        "content_type": 19,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view order",
+        "content_type": 19,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add pay method",
+        "content_type": 20,
+        "codename": "add_paymethod"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change pay method",
+        "content_type": 20,
+        "codename": "change_paymethod"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete pay method",
+        "content_type": 20,
+        "codename": "delete_paymethod"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view pay method",
+        "content_type": 20,
+        "codename": "view_paymethod"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add order items",
+        "content_type": 21,
+        "codename": "add_orderitems"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change order items",
+        "content_type": 21,
+        "codename": "change_orderitems"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete order items",
+        "content_type": 21,
+        "codename": "delete_orderitems"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view order items",
+        "content_type": 21,
+        "codename": "view_orderitems"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add feedback",
+        "content_type": 22,
+        "codename": "add_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change feedback",
+        "content_type": 22,
+        "codename": "change_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete feedback",
+        "content_type": 22,
+        "codename": "delete_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view feedback",
+        "content_type": 22,
+        "codename": "view_feedback"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add conditiont_swap",
+        "content_type": 23,
+        "codename": "add_conditiont_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change conditiont_swap",
+        "content_type": 23,
+        "codename": "change_conditiont_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete conditiont_swap",
+        "content_type": 23,
+        "codename": "delete_conditiont_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view conditiont_swap",
+        "content_type": 23,
+        "codename": "view_conditiont_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add delivery",
+        "content_type": 24,
+        "codename": "add_delivery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change delivery",
+        "content_type": 24,
+        "codename": "change_delivery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete delivery",
+        "content_type": 24,
+        "codename": "delete_delivery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view delivery",
+        "content_type": 24,
+        "codename": "view_delivery"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add swap",
+        "content_type": 25,
+        "codename": "add_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change swap",
+        "content_type": 25,
+        "codename": "change_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete swap",
+        "content_type": 25,
+        "codename": "delete_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view swap",
+        "content_type": 25,
+        "codename": "view_swap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+        "name": "Can add about",
+        "content_type": 26,
+        "codename": "add_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+        "name": "Can change about",
+        "content_type": 26,
+        "codename": "change_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+        "name": "Can delete about",
+        "content_type": 26,
+        "codename": "delete_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+        "name": "Can view about",
+        "content_type": 26,
+        "codename": "view_about"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "Managers",
+        "permissions": [
+            74,
+            81,
+            82,
+            83,
+            84,
+            78,
+            80
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$wDLhsWrDe9jNdkX1NnmX75$6Li/rNfvo3SDnmqxzy3k7CwEyMVVJklPKC8tAQ9V0WY=",
+        "last_login": "2023-02-02T16:44:47.398Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "nastabka@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-01-09T10:53:17.226Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$NjuAW02NxZwx8VbFqk6N64$aeav9kKfYEHvn+lON9+7G4+v/jjAvhbrnmcdkR7BUIM=",
+        "last_login": "2023-02-02T16:12:05.215Z",
+        "is_superuser": false,
+        "username": "manager",
+        "first_name": "",
+        "last_name": "",
+        "email": "manager@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-01-19T14:44:51Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "main_page",
+        "model": "address"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "main_page",
+        "model": "advantage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "main_page",
+        "model": "category_good"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "main_page",
+        "model": "email_adress"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "main_page",
+        "model": "gallery"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "main_page",
+        "model": "offer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "main_page",
+        "model": "phone"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "main_page",
+        "model": "slider"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "main_page",
+        "model": "type_good"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "main_page",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "order",
+        "model": "city"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "order",
+        "model": "department"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "order",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "order",
+        "model": "paymethod"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "order",
+        "model": "orderitems"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "main_page",
+        "model": "feedback"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "conditions",
+        "model": "conditiont_swap"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "conditions",
+        "model": "delivery"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+        "app_label": "conditions",
+        "model": "swap"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": {
+        "app_label": "conditions",
+        "model": "about"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "398q9dl2xtfnw43wxku9sqco43pglzlq",
+    "fields": {
+        "session_data": ".eJxVjLEOgzAMRP_FcxUlkATM2J1vQLbjFtoKJAgT4t8LEgs33nt3GwjNGZptf0BHa-67ddG5GxI0UMCtY5KvjidIHxrfk5FpzPPA5lTMRRfTTkl_z8u9HfS09Me6ZC5LrZEx2uBEkpLHeIStxApdZK6sj8EScgjJvlyopfZYaBRXqIP9Dx4pOpQ:1pNB4H:1ABzpvggIZAqfaDyMWTyRf8RHPC0DS4qcj4qCCFdfQU",
+        "expire_date": "2023-02-15T11:14:21.785Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cq49p4n1xs7bcl3nlguwlt9e7kpac7ub",
+    "fields": {
+        "session_data": ".eJxVjDsOgzAQRO-ydWThxb-lTJ8zoF3bxCQRSHwqxN0DEg2abt6b2SDytECz7Q9oeV1Ku855avsEDWi4dcLxm4cTpA8P71HFcVimXtSpqIvO6jWm_Hte7u2g8FyONcdajLMhaNS2Cx7JYzaBEnVcHbEiUTtfoyUhRisVRRQnDmttrBDsfw9AOl0:1pKyi4:9LUpfqT2jcTm_LDtl1xRKtZXZDI_-B0VzvatrimsB4k",
+        "expire_date": "2023-02-09T09:38:20.167Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hwng6og4dj9eb6t2f0mkspkrv0y63txz",
+    "fields": {
+        "session_data": ".eJyrVkpOLCpRsqpWMgcRhaWJeSWZJZVKVoY6SgVFmcmpSlZKJgYGegYGSrU6SmY41RiZQtTU1gIABUkYQw:1pJuH4:8Qq7_EyXSK4pTBea1IwLYP04D4oeEjPXYRvvW1Egqm8",
+        "expire_date": "2023-02-06T10:42:02.955Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pzqwqk04hki385t8abvyx55hwrzjv187",
+    "fields": {
+        "session_data": "eyJjYXJ0Ijp7fX0:1pNeGf:FLzJjJdmrAKRRtbYRUoBNVkYU0tbOHuSHEiPZuQt-Pk",
+        "expire_date": "2023-02-16T18:25:05.216Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rxq1tu3y9m5gum74k8ormdm9gkfkh75c",
+    "fields": {
+        "session_data": ".eJx1zM8OgjAMBvB36dksW9kfxtG7z0DaMQQ1oDAOhvDuQoIxHEyT79Dv184QaEhQzOC2eE3UpTa9ochO8BzaEKEALaWQEpYT2KNRP4Pma_CvcbtZUUlTasppjEPZVmul4LBjCvfYbUV1o-7ai9B3aWhZbETs7SgufRUf590eHjQ0Nus1hYy1NXmuUJk6d-gdRp37ytck1zHMQVmXofHsCQ1LH5AtW8yUNuxh-QBDj1i2:1pJthe:db3DW2PRoDMKSgGlPUt5Nq6cIRPUCjRgnmF5Fn9tdbs",
+        "expire_date": "2023-02-06T10:05:26.564Z"
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 1,
+    "fields": {
+        "name": "Вино",
+        "is_visible": true,
+        "position": 1
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 2,
+    "fields": {
+        "name": "Міцні напої",
+        "is_visible": true,
+        "position": 2
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 3,
+    "fields": {
+        "name": "Лікери, вермути",
+        "is_visible": true,
+        "position": 3
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 4,
+    "fields": {
+        "name": "Пиво",
+        "is_visible": true,
+        "position": 4
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 5,
+    "fields": {
+        "name": "Безалкогольні напої",
+        "is_visible": true,
+        "position": 5
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 6,
+    "fields": {
+        "name": "Аксесуари",
+        "is_visible": true,
+        "position": 6
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 1,
+    "fields": {
+        "name": "Текіла",
+        "is_visible": true,
+        "position": 1,
+        "category": 2
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 2,
+    "fields": {
+        "name": "Віскі",
+        "is_visible": true,
+        "position": 2,
+        "category": 2
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 3,
+    "fields": {
+        "name": "Ром",
+        "is_visible": true,
+        "position": 3,
+        "category": 2
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 4,
+    "fields": {
+        "name": "Ігристі вина",
+        "is_visible": true,
+        "position": 4,
+        "category": 1
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 5,
+    "fields": {
+        "name": "Білі вина",
+        "is_visible": true,
+        "position": 5,
+        "category": 1
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 6,
+    "fields": {
+        "name": "Червоні вина",
+        "is_visible": true,
+        "position": 7,
+        "category": 1
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 7,
+    "fields": {
+        "name": "Пиво",
+        "is_visible": true,
+        "position": 8,
+        "category": 4
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 8,
+    "fields": {
+        "name": "Газовані напої",
+        "is_visible": true,
+        "position": 9,
+        "category": 5
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 9,
+    "fields": {
+        "name": "Соки",
+        "is_visible": true,
+        "position": 10,
+        "category": 5
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 10,
+    "fields": {
+        "name": "Посуд",
+        "is_visible": true,
+        "position": 11,
+        "category": 6
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 11,
+    "fields": {
+        "name": "Лікери",
+        "is_visible": true,
+        "position": 12,
+        "category": 3
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 12,
+    "fields": {
+        "name": "Вермути",
+        "is_visible": true,
+        "position": 13,
+        "category": 3
+    }
+},
+{
+    "model": "main_page.slider",
+    "pk": 1,
+    "fields": {
+        "photo": "assets/slider/202301/wine.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.slider",
+    "pk": 2,
+    "fields": {
+        "photo": "assets/slider/202301/liquor.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.slider",
+    "pk": 3,
+    "fields": {
+        "photo": "assets/slider/202301/strong.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 1,
+    "fields": {
+        "desc": "Якісна продукція",
+        "photo": "assets/advantage/202301/11506406583034-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 2,
+    "fields": {
+        "desc": "Обмін та повернення",
+        "photo": "assets/advantage/202301/13472731857021-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 3,
+    "fields": {
+        "desc": "Оплата при отримані",
+        "photo": "assets/advantage/202301/14857461757512-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 4,
+    "fields": {
+        "desc": "Швидка доставка",
+        "photo": "assets/advantage/202301/17754052242941-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.offer",
+    "pk": 1,
+    "fields": {
+        "offer": "Хіт продажів",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.offer",
+    "pk": 2,
+    "fields": {
+        "offer": "Новинки",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.offer",
+    "pk": 3,
+    "fields": {
+        "offer": "Спеціальна пропозиція",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 1,
+    "fields": {
+        "name": "Текіла Olmeca",
+        "slug": "tequila-Olmeca",
+        "item": 1,
+        "price": "450.00",
+        "description": "Основні характеристики Olmeca\r\nМіцність: 38%\r\nКраїна-виробник: Мексика\r\nОб'єм: 0,7 л",
+        "photo": "assets/product/202301/10677685-depositphotos-bgremover_rgXmi7s.png",
+        "category": 2,
+        "type": 1,
+        "offer": 3,
+        "created": "2023-01-09T12:38:11.303Z",
+        "updated": "2023-01-19T20:14:58.463Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 2,
+    "fields": {
+        "name": "Віскі Jameson",
+        "slug": "viski-jameson",
+        "item": 2,
+        "price": "750.00",
+        "description": "Основні характеристики Віскі Jameson\r\nМіцність:  40% \r\nКраїна-виробник:  Ірландія \r\nОб'єм:  1 л",
+        "photo": "assets/product/202301/10677920-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 2,
+        "offer": 1,
+        "created": "2023-01-09T12:49:40.745Z",
+        "updated": "2023-01-09T12:49:40.745Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 3,
+    "fields": {
+        "name": "Ром Captain-Morgan",
+        "slug": "rom-captain-morgan",
+        "item": 3,
+        "price": "400.00",
+        "description": "Ром Captain-Morgan",
+        "photo": "assets/product/202301/10681061-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": 1,
+        "created": "2023-01-13T16:53:17.346Z",
+        "updated": "2023-01-13T16:53:17.346Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 4,
+    "fields": {
+        "name": "Ром Real Rom",
+        "slug": "rom-real-rom",
+        "item": 4,
+        "price": "500.00",
+        "description": "Ром Real Rom",
+        "photo": "assets/product/202301/10681943-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": 2,
+        "created": "2023-01-13T16:54:15.059Z",
+        "updated": "2023-01-13T16:54:15.060Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 5,
+    "fields": {
+        "name": "Ром білий Bacardi",
+        "slug": "rom-bilij-bacardi",
+        "item": 5,
+        "price": "500.00",
+        "description": "Ром білий Bacardi",
+        "photo": "assets/product/202301/10690329-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": 3,
+        "created": "2023-01-13T16:54:55.952Z",
+        "updated": "2023-01-13T16:54:55.952Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 6,
+    "fields": {
+        "name": "Silver Breeze",
+        "slug": "silver-breeze",
+        "item": 1,
+        "price": "250.00",
+        "description": "Silver Breeze",
+        "photo": "assets/product/202301/10693645-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 4,
+        "offer": 3,
+        "created": "2023-01-13T16:56:08.771Z",
+        "updated": "2023-01-19T20:14:57.871Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 7,
+    "fields": {
+        "name": "Henkel brut",
+        "slug": "henkel-brut",
+        "item": 1,
+        "price": "400.00",
+        "description": "Henkel brut",
+        "photo": "assets/product/202301/10706618-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 4,
+        "offer": 2,
+        "created": "2023-01-13T16:57:01.037Z",
+        "updated": "2023-01-24T13:31:04.661Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 8,
+    "fields": {
+        "name": "Yellow tail Pinot Grigio",
+        "slug": "yellow-tail-pinot-grigio",
+        "item": 1,
+        "price": "350.00",
+        "description": "Yellow tail Pinot Grigio",
+        "photo": "assets/product/202301/10824108-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": 3,
+        "created": "2023-01-13T16:58:40.322Z",
+        "updated": "2023-01-19T20:14:58.134Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 9,
+    "fields": {
+        "name": "Vodka",
+        "slug": "vodka",
+        "item": 1,
+        "price": "200.00",
+        "description": "Vodka",
+        "photo": "assets/product/202301/10706288-depositphotos-bgremover_uMJ9FVs.png",
+        "category": 2,
+        "type": 2,
+        "offer": null,
+        "created": "2023-01-19T20:28:54.873Z",
+        "updated": "2023-01-19T20:28:54.873Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 10,
+    "fields": {
+        "name": "BlaBla",
+        "slug": "blabla",
+        "item": 5,
+        "price": "100.00",
+        "description": "cvbnm,",
+        "photo": "assets/product/202301/163381375-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 1,
+        "offer": 3,
+        "created": "2023-01-19T20:30:06.630Z",
+        "updated": "2023-02-02T16:13:28.618Z",
+        "is_visible": false,
+        "is_available": false
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 11,
+    "fields": {
+        "name": "Віскі Jack Daniels",
+        "slug": "viski-jack-daniels",
+        "item": 5,
+        "price": "400.00",
+        "description": "Віскі Jack Daniels",
+        "photo": "assets/product/202301/10695809-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 2,
+        "offer": null,
+        "created": "2023-01-26T09:40:05.944Z",
+        "updated": "2023-01-26T09:40:05.944Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 12,
+    "fields": {
+        "name": "Текіла Sierra",
+        "slug": "tekila-sierra",
+        "item": 5,
+        "price": "450.00",
+        "description": "Текіла Sierra",
+        "photo": "assets/product/202301/10836558-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 1,
+        "offer": null,
+        "created": "2023-01-26T09:40:52.297Z",
+        "updated": "2023-01-26T09:40:52.297Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 13,
+    "fields": {
+        "name": "Ром Dead Man's fingers raspberry",
+        "slug": "rom-dead-mans-fingers-raspberry",
+        "item": 7,
+        "price": "600.00",
+        "description": "Ром Dead Man's fingers raspberry",
+        "photo": "assets/product/202301/37385916-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": null,
+        "created": "2023-01-26T09:42:23.946Z",
+        "updated": "2023-01-26T09:42:23.946Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 14,
+    "fields": {
+        "name": "Вино Misilla",
+        "slug": "wine-misilla",
+        "item": 8,
+        "price": "350.00",
+        "description": "Вино Misilla",
+        "photo": "assets/product/202301/273470882-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": null,
+        "created": "2023-01-26T09:44:02.278Z",
+        "updated": "2023-01-26T09:44:02.278Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 15,
+    "fields": {
+        "name": "Вино daMalta",
+        "slug": "wine-damalta",
+        "item": 9,
+        "price": "400.00",
+        "description": "Вино daMalta",
+        "photo": "assets/product/202301/123257965-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 6,
+        "offer": null,
+        "created": "2023-01-26T09:45:09.268Z",
+        "updated": "2023-01-26T09:45:09.268Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 16,
+    "fields": {
+        "name": "Вино Comte",
+        "slug": "wine-comte",
+        "item": 12,
+        "price": "400.00",
+        "description": "Вино Comte",
+        "photo": "assets/product/202301/288207504-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 6,
+        "offer": null,
+        "created": "2023-01-26T09:45:58.322Z",
+        "updated": "2023-01-26T09:45:58.323Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 17,
+    "fields": {
+        "name": "Corona Extra 12шт",
+        "slug": "corona-extra-12sht",
+        "item": 10,
+        "price": "480.00",
+        "description": "Corona Extra упаковка 12шт",
+        "photo": "assets/product/202302/37367504-depositphotos-bgremover.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-01-26T09:47:52.204Z",
+        "updated": "2023-02-02T13:57:01.003Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 18,
+    "fields": {
+        "name": "Пиво Blanc 24",
+        "slug": "beer-blanc",
+        "item": 11,
+        "price": "500.00",
+        "description": "Пиво Blanc 24 шт",
+        "photo": "assets/product/202301/269763234-depositphotos-bgremover.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-01-26T09:51:11.824Z",
+        "updated": "2023-01-26T10:04:23.620Z",
+        "is_visible": false,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 19,
+    "fields": {
+        "name": "Пиво Leffe",
+        "slug": "beer-leffe",
+        "item": 1,
+        "price": "45.00",
+        "description": "Пиво Leffe",
+        "photo": "assets/product/202301/48743677-depositphotos-bgremover.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-01-26T09:52:06.529Z",
+        "updated": "2023-01-26T09:52:06.529Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 20,
+    "fields": {
+        "name": "Elysee",
+        "slug": "elysee",
+        "item": 4,
+        "price": "600.00",
+        "description": "Elysee",
+        "photo": "assets/product/202302/303793468-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 4,
+        "offer": null,
+        "created": "2023-02-02T13:53:27.515Z",
+        "updated": "2023-02-02T13:53:27.515Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 21,
+    "fields": {
+        "name": "Sauvignon Rose",
+        "slug": "wine-sauvignon-rose",
+        "item": 15,
+        "price": "400.00",
+        "description": "Sauvignon Rose",
+        "photo": "assets/product/202302/44545492-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": null,
+        "created": "2023-02-02T13:54:26.812Z",
+        "updated": "2023-02-02T13:54:26.812Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 22,
+    "fields": {
+        "name": "Capela",
+        "slug": "wine-capela",
+        "item": 6,
+        "price": "350.00",
+        "description": "Capela",
+        "photo": "assets/product/202302/123257960-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": null,
+        "created": "2023-02-02T13:55:25.102Z",
+        "updated": "2023-02-02T13:55:25.102Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 23,
+    "fields": {
+        "name": "Corona Extra",
+        "slug": "beercorona-extra",
+        "item": 4,
+        "price": "45.00",
+        "description": "Corona Extra",
+        "photo": "assets/product/202302/37367504-depositphotos-bgremover_OatJQiq.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-02-02T13:56:15.066Z",
+        "updated": "2023-02-02T16:24:28.766Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 24,
+    "fields": {
+        "name": "Heineken",
+        "slug": "beer-heineken",
+        "item": 22,
+        "price": "50.00",
+        "description": "Heineken",
+        "photo": "assets/product/202302/png-transparent-beer-bottle_MtkmQ41.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-02-02T13:59:30.666Z",
+        "updated": "2023-02-02T15:54:01.652Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 25,
+    "fields": {
+        "name": "Fanta 0.33 10шт",
+        "slug": "fanta-033-10sht",
+        "item": 1,
+        "price": "150.00",
+        "description": "Fanta 0.33 10шт",
+        "photo": "assets/product/202302/fanta-vitaminC_B4CmZaz.png",
+        "category": 5,
+        "type": 8,
+        "offer": null,
+        "created": "2023-02-02T14:01:07.946Z",
+        "updated": "2023-02-02T14:01:07.946Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 26,
+    "fields": {
+        "name": "Coca-cola clasic 0.33 10шт",
+        "slug": "coca-cola-clasic-033-10sht",
+        "item": 5,
+        "price": "140.00",
+        "description": "Coca-cola clasic 0.33 10шт",
+        "photo": "assets/product/202302/Koka-kola-033-zh_b-_12_.png",
+        "category": 5,
+        "type": 8,
+        "offer": null,
+        "created": "2023-02-02T14:01:45.357Z",
+        "updated": "2023-02-02T16:27:09.257Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 27,
+    "fields": {
+        "name": "Schweppes 12шт",
+        "slug": "schweppes-12sht",
+        "item": 2,
+        "price": "150.00",
+        "description": "Schweppes 12шт",
+        "photo": "assets/product/202302/voda-shveps-indian-tonik-033l-12shtup-zhestyanaya-banka-schweppes0.png",
+        "category": 5,
+        "type": 8,
+        "offer": null,
+        "created": "2023-02-02T14:10:01.789Z",
+        "updated": "2023-02-02T16:27:27.486Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 28,
+    "fields": {
+        "name": "Наш сік мультивітамін",
+        "slug": "nash-sik-multivitamin",
+        "item": 32,
+        "price": "52.00",
+        "description": "Наш сік мультивітамін 1л",
+        "photo": "assets/product/202302/8915_av.png",
+        "category": 5,
+        "type": 9,
+        "offer": null,
+        "created": "2023-02-02T15:49:24.916Z",
+        "updated": "2023-02-02T16:27:48.904Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 29,
+    "fields": {
+        "name": "Сік Sandora апельсин-грейпфрут",
+        "slug": "sik-sandora-apelsin-grejpfrut",
+        "item": 21,
+        "price": "55.00",
+        "description": "Сік Sandora апельсин-грейпфрут",
+        "photo": "assets/product/202302/1235108_1.png",
+        "category": 5,
+        "type": 9,
+        "offer": null,
+        "created": "2023-02-02T15:50:24.289Z",
+        "updated": "2023-02-02T16:28:17.121Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 30,
+    "fields": {
+        "name": "Сік Sandora апельсиновий 1л",
+        "slug": "sik-sandora-apelsinovij-1l",
+        "item": 13,
+        "price": "55.00",
+        "description": "Сік Sandora апельсиновий 1л",
+        "photo": "assets/product/202302/soksandoraapelsin.png",
+        "category": 5,
+        "type": 9,
+        "offer": null,
+        "created": "2023-02-02T15:51:59.588Z",
+        "updated": "2023-02-02T16:28:09.996Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 31,
+    "fields": {
+        "name": "Набір барного посуду",
+        "slug": "nabir-barnogo-posudu",
+        "item": 1,
+        "price": "1100.00",
+        "description": "Набір барного посуду",
+        "photo": "assets/product/202302/3843827564_w640_h640_3843827564.png",
+        "category": 6,
+        "type": 10,
+        "offer": null,
+        "created": "2023-02-02T15:55:23.249Z",
+        "updated": "2023-02-02T16:28:34.998Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 32,
+    "fields": {
+        "name": "Келих винний",
+        "slug": "kelih-vinnij",
+        "item": 2,
+        "price": "75.00",
+        "description": "Келих винний",
+        "photo": "assets/product/202302/загрузка.png",
+        "category": 6,
+        "type": 10,
+        "offer": null,
+        "created": "2023-02-02T15:56:35.039Z",
+        "updated": "2023-02-02T16:28:46.810Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 33,
+    "fields": {
+        "name": "Склянка",
+        "slug": "sklyanka",
+        "item": 10,
+        "price": "65.00",
+        "description": "Склянка",
+        "photo": "assets/product/202302/3761180324_w600_h600_3761180324_C5mWfuC.png",
+        "category": 6,
+        "type": 10,
+        "offer": 2,
+        "created": "2023-02-02T15:57:52.664Z",
+        "updated": "2023-02-02T16:29:17.844Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 34,
+    "fields": {
+        "name": "Sheridan's лікер",
+        "slug": "sheridans-liker",
+        "item": 2,
+        "price": "500.00",
+        "description": "Sheridan's лікер",
+        "photo": "assets/product/202302/393031-liker-sheridans-1-l-f-transformed.png",
+        "category": 3,
+        "type": 11,
+        "offer": null,
+        "created": "2023-02-02T16:03:22.269Z",
+        "updated": "2023-02-02T16:20:26.278Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 35,
+    "fields": {
+        "name": "Baileys лікер",
+        "slug": "baileys-liker",
+        "item": 3,
+        "price": "645.00",
+        "description": "Baileys лікер",
+        "photo": "assets/product/202302/загрузка_1.png",
+        "category": 3,
+        "type": 11,
+        "offer": null,
+        "created": "2023-02-02T16:04:00.385Z",
+        "updated": "2023-02-02T16:22:55.232Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 36,
+    "fields": {
+        "name": "Missis лікер",
+        "slug": "missis-liker",
+        "item": 4,
+        "price": "650.00",
+        "description": "Missis лікер",
+        "photo": "assets/product/202302/kupit-shokoladnyj-liker-missis-creamy-cokolada-05l-transformed.png",
+        "category": 3,
+        "type": 11,
+        "offer": null,
+        "created": "2023-02-02T16:05:06.121Z",
+        "updated": "2023-02-02T16:20:38.245Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 37,
+    "fields": {
+        "name": "Santo Stefano",
+        "slug": "santo-stefano",
+        "item": 5,
+        "price": "400.00",
+        "description": "Santo Stefano вермут",
+        "photo": "assets/product/202302/0_0_orig-Qs2pAB_ID-transformed.png",
+        "category": 3,
+        "type": 12,
+        "offer": null,
+        "created": "2023-02-02T16:05:55.915Z",
+        "updated": "2023-02-02T16:18:58.224Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 38,
+    "fields": {
+        "name": "ISSI вермут",
+        "slug": "issi-vermut",
+        "item": 6,
+        "price": "450.00",
+        "description": "ISSI вермут",
+        "photo": "assets/product/202302/images_1.png",
+        "category": 3,
+        "type": 12,
+        "offer": null,
+        "created": "2023-02-02T16:06:25.170Z",
+        "updated": "2023-02-02T16:23:17.151Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 39,
+    "fields": {
+        "name": "Martini вермут",
+        "slug": "martini-vermut",
+        "item": 7,
+        "price": "500.00",
+        "description": "Martini вермут",
+        "photo": "assets/product/202302/images.png",
+        "category": 3,
+        "type": 12,
+        "offer": null,
+        "created": "2023-02-02T16:06:50.867Z",
+        "updated": "2023-02-02T16:23:29.246Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 1,
+    "fields": {
+        "photo": "assets/gallery/202301/79.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 2,
+    "fields": {
+        "photo": "assets/gallery/202301/18890_88628598.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 3,
+    "fields": {
+        "photo": "assets/gallery/202301/655665.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 4,
+    "fields": {
+        "photo": "assets/gallery/202301/1517827134_izvestnye-marki-viski-2.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 5,
+    "fields": {
+        "photo": "assets/gallery/202301/d48ed900e79fa9547169c26138b4cd8d_XL.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 6,
+    "fields": {
+        "photo": "assets/gallery/202301/red-wine-health-benefits-ce3be96b730b41cc82f128abb75c2395.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 7,
+    "fields": {
+        "photo": "assets/gallery/202301/SdpSUHsa2umtucBumMJwOEs1vuVskEbAPnSnFFwh.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phone",
+    "pk": 1,
+    "fields": {
+        "phone": "+380630000001",
+        "is_visible": true,
+        "is_viber": true,
+        "is_telegram": false
+    }
+},
+{
+    "model": "main_page.phone",
+    "pk": 2,
+    "fields": {
+        "phone": "+380630000002",
+        "is_visible": true,
+        "is_viber": false,
+        "is_telegram": true
+    }
+},
+{
+    "model": "main_page.phone",
+    "pk": 3,
+    "fields": {
+        "phone": "+380670000001",
+        "is_visible": true,
+        "is_viber": false,
+        "is_telegram": true
+    }
+},
+{
+    "model": "main_page.email_adress",
+    "pk": 1,
+    "fields": {
+        "email": "grape@gmail.com",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.email_adress",
+    "pk": 2,
+    "fields": {
+        "email": "grape_manager@gmail.com",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.email_adress",
+    "pk": 3,
+    "fields": {
+        "email": "grape_support@gmail.com",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.address",
+    "pk": 1,
+    "fields": {
+        "address": "Location",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 1,
+    "fields": {
+        "name": "Anna",
+        "message": "Good",
+        "product": 10,
+        "date": "2023-01-26T10:10:58.193Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 2,
+    "fields": {
+        "name": "Anna",
+        "message": "Henkel brut Delicious",
+        "product": 7,
+        "date": "2023-01-26T10:52:32.301Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 3,
+    "fields": {
+        "name": "kjhgfdfkjh",
+        "message": ",kjhgkjhgffghjj",
+        "product": 10,
+        "date": "2023-01-26T18:41:07.452Z",
+        "is_visible": false
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 4,
+    "fields": {
+        "name": "Анастасія",
+        "message": "Дуже хороший товар якіснй фвоаіиапчсчяфілотамсч ролвадиптри  ваприть",
+        "product": 10,
+        "date": "2023-01-30T07:36:15.683Z",
+        "is_visible": false
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 5,
+    "fields": {
+        "name": "Анастасія",
+        "message": "Дуже хороший товар якіснй фвоаіиапчсчяфілотамсч ролвадиптри  ваприть",
+        "product": 10,
+        "date": "2023-01-30T07:36:37.345Z",
+        "is_visible": false
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 6,
+    "fields": {
+        "name": "Anna",
+        "message": "Дуже хороший товар",
+        "product": 13,
+        "date": "2023-02-02T16:10:18.499Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.delivery",
+    "pk": 1,
+    "fields": {
+        "order": "Мінімальне замовлення в Інтернет-магазині становить 300,00 грн. При замовленні від 300,00 до 1000,00 грн. послугу доставки сплачує клієнт. При замовленні від 1000,00 грн. послуги доставки товару і повернення платежу безкоштовні. Для зручності покупців, Інтернет-магазин Grape приймає замовлення в режимі on-line цілодобово, без вихідних. Замовлення обробляються протягом 30 хвилин з 8:30 до 17:00 в робочі дні. Замовлення, що надходять в неробочий час (в тому числі у вихідні та святкові дні) обробляються в найближчий робочий день до 11:00. Безпосередньо після обробки замовлення, його підтвердження і уточнення проводиться співробітником інтернет-магазину за телефоном, вказаним в замовленні. Після",
+        "deliv": "Всі замовлення, оформлені на сайті інтернет-магазину до 12:00, відправляються в день оформлення замовлення.Замовлення доставляються протягом 1-3 днів в залежності від регіону, в який відправляється товар. Документи, що підтверджують факт купівлі товару, направляються разом з товаром.",
+        "pay": "Оплатити замовлення можливо в форматі «накладений платіж» при отриманні товару у відділенні Нової Пошти, так і у безготівковому форматі на підставі рахунку-фактури. Оплата замовлення в форматі «накладений платіж» може бути проведена при отриманні товару від перевізника. Комісія за накладений платіж оплачується клієнтом. Оплата за безготівковим розрахунком здійснюється на підставі рахунку-фактури, яка доступна для юридичних та фізичних осіб. Для підтвердження замовлення покупцеві електронним листом направляється рахунок-фактура на оплату.Оплатити",
+        "data": "2023-01-27T09:04:34.116Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.swap",
+    "pk": 1,
+    "fields": {
+        "desc": "Обмін і повернення товару регламентується Законом України «Про захист прав споживачів», згідно з яким покупець має право повернути товар продавцеві протягом 14 днів з дня покупки. У разі звернення клієнта з проханням про повернення або обмін товару, вийдіть з ним на зв'язок максимально швидко та уто",
+        "cond_swap_goods": "Продавець має право відмовити у поверненні, якщо не дотриманні дані умови. Для товарів неналежної якості діють інші норми Закону України «Про захист прав споживачів». Для повернення товару, узгодьте з покупцем спосіб зворотної доставки товару. Запропонуйте покупцю повернути товар у вашій точці видачі або попросіть його відправити товар за допомогою поштової служби та надіслати вам номер ТТН. Доставлення товару відбувається коштом покупця, але якщо отриманий товар не відповідав замовленню (інша модель і т.п.), тоді продавець повинен компенсувати клієнтові транспортні витрати. Попередьте покупця про необхідність написати заяву про повернення товару, в якій мають бути вказані причини повернення",
+        "cond_swap_money": "Повернення грошових коштів покупцю Згідно із законодавством, при поверненні товару розрахунки з покупцем проводяться виходячи з вартості товару на момент покупки. За домовленістю з покупцем, ви також можете провести обмін на товар за тією ж вартістю або з перерахунком ціни. Гроші за товар, оплачений карткою або за безготівковим розрахунком, повинні бути повернуті тим самим способом платнику. Для цього через особистий кабінет платіжної системи угоду потрібно скасувати і провести повернення коштів, або з розрахункового рахунку, на підставі заяви покупця, повернути гроші на розрахунковий рахунок платника. При готівковій оплаті за товар, повернення коштів відбувається зручним для покупця способо",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 1,
+    "fields": {
+        "cond": "товар не належить до товарів, які не підлягають обміну та поверненню;",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 2,
+    "fields": {
+        "cond": "товар не використовувався, повністю укомплектований і не порушена цілісність пакування (відкрите упакування не вважається пошкодженням товарного вигляду);",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 3,
+    "fields": {
+        "cond": "збережені заводські (гарантійні) пломби, ярлики та маркування;",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 4,
+    "fields": {
+        "cond": "пройшло менш як 14 днів з моменту отримання товару;",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 5,
+    "fields": {
+        "cond": "є в наявності розрахунковий документ і гарантійний талон.",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.about",
+    "pk": 1,
+    "fields": {
+        "about": "Інтернет магазин Grape - ваш активний помічник у покупці алкоголю. У великому каталозі представлені алкогольні напої провідних та вітчизняних виробників сертифікованої якості. У нас є все, що порадує вас і підніме настрій: класична горілка, молоді, ігристі та марочні вина, витримані віскі та коньяки, ексклюзивні міцні напої різної фортеці з усього світу.\r\nКомфортна навігація, проста форма замовлення на сайті інтернет магазину Grape та підтримка досвідчених менеджерів-сомельє дозволяє зробити покупку швидко та комфортно.\r\nНаша мета\r\nМи відкриваємо нові можливості для українців для придбання якісних алкогольних напоїв з усього світу за справедливими цінами.\r\nНаша філософія\r\nКожен із нас вартий кращого! Ми хочемо, щоб будь-який наш співвітчизник отримував задоволення від обраних алкогольних напоїв, не переплачуючи за них і не ризикуючи своє здоров'я!\r\nЧому нам довіряють наші постійні клієнти?\r\nТільки ліцензований алкоголь, бездоганний сервіс досвідченого сомельє та найкращі ціни",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.paymethod",
+    "pk": 1,
+    "fields": {
+        "method": "Готівка при отриманні",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.paymethod",
+    "pk": 2,
+    "fields": {
+        "method": "Банківська картка",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 1,
+    "fields": {
+        "city": "Вінниця",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 2,
+    "fields": {
+        "city": "Луцьк",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 3,
+    "fields": {
+        "city": "Дніпро",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 4,
+    "fields": {
+        "city": "Житомир",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 5,
+    "fields": {
+        "city": "Ужгород",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 6,
+    "fields": {
+        "city": "Запоріжжя",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 7,
+    "fields": {
+        "city": "Київ",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 1,
+    "fields": {
+        "department": 1,
+        "city": 1,
+        "address": "вул. Якова Шепеля, 1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 2,
+    "fields": {
+        "department": 2,
+        "city": 1,
+        "address": "вул.Липовецька 6а",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 3,
+    "fields": {
+        "department": 3,
+        "city": 1,
+        "address": "вул.Соборна 89",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 4,
+    "fields": {
+        "department": 4,
+        "city": 1,
+        "address": "вул.Юрія Клена 28",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 5,
+    "fields": {
+        "department": 5,
+        "city": 1,
+        "address": "вул.Келицька 83",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 6,
+    "fields": {
+        "department": 6,
+        "city": 1,
+        "address": "вул.Зодчих 16",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 7,
+    "fields": {
+        "department": 7,
+        "city": 1,
+        "address": "вул. 600-річчя 50",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 8,
+    "fields": {
+        "department": 1,
+        "city": 2,
+        "address": "вул. Карбишева, 1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 9,
+    "fields": {
+        "department": 2,
+        "city": 2,
+        "address": "вул. Шевченка, 88",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 10,
+    "fields": {
+        "department": 3,
+        "city": 2,
+        "address": "просп. Соборності, 1-А",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 11,
+    "fields": {
+        "department": 4,
+        "city": 2,
+        "address": "вул. Львівська, 152 б",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 12,
+    "fields": {
+        "department": 5,
+        "city": 2,
+        "address": "вул. Зв'язківців, 1а",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 13,
+    "fields": {
+        "department": 1,
+        "city": 3,
+        "address": "вул. Маршала Малиновського, 114",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 14,
+    "fields": {
+        "department": 2,
+        "city": 3,
+        "address": "вул. Академіка Янгеля, 40",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 15,
+    "fields": {
+        "department": 3,
+        "city": 3,
+        "address": "вул. Тверська, 1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 16,
+    "fields": {
+        "department": 4,
+        "city": 3,
+        "address": "вул. Князя Ярослава Мудрого (ран. Ленінградська), 19",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 17,
+    "fields": {
+        "department": 1,
+        "city": 4,
+        "address": "вул. Гранітна, 16",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 18,
+    "fields": {
+        "department": 2,
+        "city": 4,
+        "address": "вул. Тараса Бульби-Боровця (ран. Маршала Рибалко), 28",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 19,
+    "fields": {
+        "department": 3,
+        "city": 4,
+        "address": "вул. Покровська (ран. Щорса), 20",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 20,
+    "fields": {
+        "department": 1,
+        "city": 5,
+        "address": "вул. Верещагіна, 16",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 21,
+    "fields": {
+        "department": 2,
+        "city": 5,
+        "address": "вул. Станційна, 16/1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 22,
+    "fields": {
+        "department": 3,
+        "city": 5,
+        "address": "вул. Острівна, 9А",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 23,
+    "fields": {
+        "department": 1,
+        "city": 6,
+        "address": "вул. Теплобудівна, 28",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 24,
+    "fields": {
+        "department": 2,
+        "city": 6,
+        "address": "вул. Карпенка-Карого, 58",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 25,
+    "fields": {
+        "department": 3,
+        "city": 6,
+        "address": "вул. Айвазовського, 9 (правий берег)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 26,
+    "fields": {
+        "department": 1,
+        "city": 7,
+        "address": "вул. Пирогівський шлях, 135",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 27,
+    "fields": {
+        "department": 2,
+        "city": 7,
+        "address": "вул. Бережанська, 9 (Оболонь Лугова)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 28,
+    "fields": {
+        "department": 3,
+        "city": 7,
+        "address": "вул. Бережанська, 9 (Оболонь Лугова)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 29,
+    "fields": {
+        "department": 4,
+        "city": 7,
+        "address": "вул. Кричевського, 19, м. Житомирська (Святошин)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 30,
+    "fields": {
+        "department": 5,
+        "city": 7,
+        "address": "вул. Федорова, 32 (м. Олімпійська)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 31,
+    "fields": {
+        "department": 6,
+        "city": 7,
+        "address": "вул. Миколи Василенка, 2 (метро Берестейська)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 32,
+    "fields": {
+        "department": 7,
+        "city": 7,
+        "address": "вул. Гната Хоткевича, 8 (м.Чернігівська)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 33,
+    "fields": {
+        "department": 8,
+        "city": 7,
+        "address": "вул. Набережно-Хрещатицька, 33",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 34,
+    "fields": {
+        "department": 9,
+        "city": 7,
+        "address": "пров. В'ячеслава Чорновола, 54а",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 35,
+    "fields": {
+        "department": 10,
+        "city": 7,
+        "address": "вул. Василя Жуковського, 22А",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 1,
+    "fields": {
+        "name": "Fyyfff",
+        "last_name": "fffffff",
+        "email": "nastabka@gmail.com",
+        "phone": "0639794367",
+        "city": 1,
+        "department": 1,
+        "pay_method": 1,
+        "created": "2023-01-24T12:10:45Z",
+        "updated": "2023-02-01T11:33:34.678Z",
+        "paid": true,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 2,
+    "fields": {
+        "name": "Anna",
+        "last_name": "Ferat",
+        "email": "anna@ukr.net",
+        "phone": "0639794367",
+        "city": 1,
+        "department": 1,
+        "pay_method": 2,
+        "created": "2023-01-24T14:17:33Z",
+        "updated": "2023-01-25T13:40:05.727Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 3,
+    "fields": {
+        "name": "Nastia",
+        "last_name": "Bkdg",
+        "email": "nas@dfghj.gh",
+        "phone": "0639794367",
+        "city": 7,
+        "department": 27,
+        "pay_method": 2,
+        "created": "2023-01-26T18:39:59.977Z",
+        "updated": "2023-01-26T18:40:00.091Z",
+        "paid": true,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 4,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "VVVV",
+        "email": "viktoria@fdfd.fd",
+        "phone": "0639794367",
+        "city": 1,
+        "department": 4,
+        "pay_method": 1,
+        "created": "2023-02-01T10:32:55.566Z",
+        "updated": "2023-02-01T10:32:55.722Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 5,
+    "fields": {
+        "name": "Csdfgh",
+        "last_name": "sdfgh",
+        "email": "asdfgh@fg.gh",
+        "phone": "0639999999",
+        "city": 3,
+        "department": 16,
+        "pay_method": 1,
+        "created": "2023-02-01T10:35:28.859Z",
+        "updated": "2023-02-01T10:35:29.083Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 6,
+    "fields": {
+        "name": "Csdfgh",
+        "last_name": "sdfgh",
+        "email": "asdfgh@fg.gh",
+        "phone": "0639999999",
+        "city": 3,
+        "department": 16,
+        "pay_method": 1,
+        "created": "2023-02-01T10:47:11.736Z",
+        "updated": "2023-02-01T10:47:12.004Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 7,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T10:57:06.608Z",
+        "updated": "2023-02-01T10:57:06.674Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 8,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T10:57:42.400Z",
+        "updated": "2023-02-01T10:57:42.926Z",
+        "paid": true,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 9,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T10:59:45.321Z",
+        "updated": "2023-02-01T10:59:45.739Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 10,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T11:01:38.414Z",
+        "updated": "2023-02-01T11:01:38.808Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 11,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T11:02:55.457Z",
+        "updated": "2023-02-01T11:02:55.530Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 12,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T11:03:53.415Z",
+        "updated": "2023-02-01T11:03:53.946Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 13,
+    "fields": {
+        "name": "Ання",
+        "last_name": "Дзьома",
+        "email": "anna@gmail.com",
+        "phone": "0631672931",
+        "city": 3,
+        "department": 15,
+        "pay_method": 2,
+        "created": "2023-02-01T11:09:57.097Z",
+        "updated": "2023-02-01T11:09:57.372Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 14,
+    "fields": {
+        "name": "Anna",
+        "last_name": "Anna",
+        "email": "anna@gmail.com",
+        "phone": "0631672961",
+        "city": 1,
+        "department": 1,
+        "pay_method": 2,
+        "created": "2023-02-01T11:13:56.233Z",
+        "updated": "2023-02-01T11:13:56.574Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 15,
+    "fields": {
+        "name": "Slava",
+        "last_name": "Slava",
+        "email": "slava@sl.av",
+        "phone": "0442223344",
+        "city": 7,
+        "department": 27,
+        "pay_method": 2,
+        "created": "2023-02-01T11:32:35.867Z",
+        "updated": "2023-02-01T11:32:36.259Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 16,
+    "fields": {
+        "name": "Анастасія",
+        "last_name": "Дзьома",
+        "email": "nastabka@gmail.com",
+        "phone": "0639794367",
+        "city": 7,
+        "department": 26,
+        "pay_method": 1,
+        "created": "2023-02-02T16:11:46.943Z",
+        "updated": "2023-02-02T16:11:47.233Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 20,
+    "fields": {
+        "order": 1,
+        "product": 17,
+        "price": "480.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 21,
+    "fields": {
+        "order": 15,
+        "product": 1,
+        "price": "450.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 22,
+    "fields": {
+        "order": 15,
+        "product": 19,
+        "price": "45.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 23,
+    "fields": {
+        "order": 8,
+        "product": 15,
+        "price": "400.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 24,
+    "fields": {
+        "order": 8,
+        "product": 13,
+        "price": "600.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 25,
+    "fields": {
+        "order": 9,
+        "product": 19,
+        "price": "45.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 26,
+    "fields": {
+        "order": 10,
+        "product": 6,
+        "price": "250.00",
+        "quantity": 4
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 27,
+    "fields": {
+        "order": 10,
+        "product": 19,
+        "price": "45.00",
+        "quantity": 7
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 28,
+    "fields": {
+        "order": 11,
+        "product": 13,
+        "price": "600.00",
+        "quantity": 6
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 29,
+    "fields": {
+        "order": 12,
+        "product": 12,
+        "price": "450.00",
+        "quantity": 6
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 30,
+    "fields": {
+        "order": 13,
+        "product": 2,
+        "price": "750.00",
+        "quantity": 5
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 31,
+    "fields": {
+        "order": 15,
+        "product": 4,
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 32,
+    "fields": {
+        "order": 8,
+        "product": 1,
+        "price": "450.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 36,
+    "fields": {
+        "order": 16,
+        "product": 38,
+        "price": "450.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 37,
+    "fields": {
+        "order": 16,
+        "product": 25,
+        "price": "150.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 38,
+    "fields": {
+        "order": 16,
+        "product": 35,
+        "price": "645.00",
+        "quantity": 2
+    }
+}
+]
