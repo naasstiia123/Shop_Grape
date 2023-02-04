@@ -1,0 +1,2109 @@
+[
+{
+    "model": "conditions.delivery",
+    "pk": 1,
+    "fields": {
+        "order": "Мінімальне замовлення в Інтернет-магазині становить 300,00 грн. При замовленні від 300,00 до 1000,00 грн. послугу доставки сплачує клієнт. При замовленні від 1000,00 грн. послуги доставки товару і повернення платежу безкоштовні. Для зручності покупців, Інтернет-магазин Grape приймає замовлення в режимі on-line цілодобово, без вихідних. Замовлення обробляються протягом 30 хвилин з 8:30 до 17:00 в робочі дні. Замовлення, що надходять в неробочий час (в тому числі у вихідні та святкові дні) обробляються в найближчий робочий день до 11:00. Безпосередньо після обробки замовлення, його підтвердження і уточнення проводиться співробітником інтернет-магазину за телефоном, вказаним в замовленні. Після",
+        "deliv": "Всі замовлення, оформлені на сайті інтернет-магазину до 12:00, відправляються в день оформлення замовлення.Замовлення доставляються протягом 1-3 днів в залежності від регіону, в який відправляється товар. Документи, що підтверджують факт купівлі товару, направляються разом з товаром.",
+        "pay": "Оплатити замовлення можливо в форматі «накладений платіж» при отриманні товару у відділенні Нової Пошти, так і у безготівковому форматі на підставі рахунку-фактури. Оплата замовлення в форматі «накладений платіж» може бути проведена при отриманні товару від перевізника. Комісія за накладений платіж оплачується клієнтом. Оплата за безготівковим розрахунком здійснюється на підставі рахунку-фактури, яка доступна для юридичних та фізичних осіб. Для підтвердження замовлення покупцеві електронним листом направляється рахунок-фактура на оплату.Оплатити",
+        "data": "2023-01-27T09:04:34.116Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.swap",
+    "pk": 1,
+    "fields": {
+        "desc": "Обмін і повернення товару регламентується Законом України «Про захист прав споживачів», згідно з яким покупець має право повернути товар продавцеві протягом 14 днів з дня покупки. У разі звернення клієнта з проханням про повернення або обмін товару, вийдіть з ним на зв'язок максимально швидко та уто",
+        "cond_swap_goods": "Продавець має право відмовити у поверненні, якщо не дотриманні дані умови. Для товарів неналежної якості діють інші норми Закону України «Про захист прав споживачів». Для повернення товару, узгодьте з покупцем спосіб зворотної доставки товару. Запропонуйте покупцю повернути товар у вашій точці видачі або попросіть його відправити товар за допомогою поштової служби та надіслати вам номер ТТН. Доставлення товару відбувається коштом покупця, але якщо отриманий товар не відповідав замовленню (інша модель і т.п.), тоді продавець повинен компенсувати клієнтові транспортні витрати. Попередьте покупця про необхідність написати заяву про повернення товару, в якій мають бути вказані причини повернення",
+        "cond_swap_money": "Повернення грошових коштів покупцю Згідно із законодавством, при поверненні товару розрахунки з покупцем проводяться виходячи з вартості товару на момент покупки. За домовленістю з покупцем, ви також можете провести обмін на товар за тією ж вартістю або з перерахунком ціни. Гроші за товар, оплачений карткою або за безготівковим розрахунком, повинні бути повернуті тим самим способом платнику. Для цього через особистий кабінет платіжної системи угоду потрібно скасувати і провести повернення коштів, або з розрахункового рахунку, на підставі заяви покупця, повернути гроші на розрахунковий рахунок платника. При готівковій оплаті за товар, повернення коштів відбувається зручним для покупця способо",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 1,
+    "fields": {
+        "cond": "товар не належить до товарів, які не підлягають обміну та поверненню;",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 2,
+    "fields": {
+        "cond": "товар не використовувався, повністю укомплектований і не порушена цілісність пакування (відкрите упакування не вважається пошкодженням товарного вигляду);",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 3,
+    "fields": {
+        "cond": "збережені заводські (гарантійні) пломби, ярлики та маркування;",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 4,
+    "fields": {
+        "cond": "пройшло менш як 14 днів з моменту отримання товару;",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.conditiont_swap",
+    "pk": 5,
+    "fields": {
+        "cond": "є в наявності розрахунковий документ і гарантійний талон.",
+        "is_visible": true
+    }
+},
+{
+    "model": "conditions.about",
+    "pk": 1,
+    "fields": {
+        "about": "Інтернет магазин Grape - ваш активний помічник у покупці алкоголю. У великому каталозі представлені алкогольні напої провідних та вітчизняних виробників сертифікованої якості. У нас є все, що порадує вас і підніме настрій: класична горілка, молоді, ігристі та марочні вина, витримані віскі та коньяки, ексклюзивні міцні напої різної фортеці з усього світу.\r\nКомфортна навігація, проста форма замовлення на сайті інтернет магазину Grape та підтримка досвідчених менеджерів-сомельє дозволяє зробити покупку швидко та комфортно.\r\nНаша мета\r\nМи відкриваємо нові можливості для українців для придбання якісних алкогольних напоїв з усього світу за справедливими цінами.\r\nНаша філософія\r\nКожен із нас вартий кращого! Ми хочемо, щоб будь-який наш співвітчизник отримував задоволення від обраних алкогольних напоїв, не переплачуючи за них і не ризикуючи своє здоров'я!\r\nЧому нам довіряють наші постійні клієнти?\r\nТільки ліцензований алкоголь, бездоганний сервіс досвідченого сомельє та найкращі ціни",
+        "is_visible": true
+    }
+},
+
+{
+    "model": "main_page.category_good",
+    "pk": 1,
+    "fields": {
+        "name": "Вино",
+        "is_visible": true,
+        "position": 1
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 2,
+    "fields": {
+        "name": "Міцні напої",
+        "is_visible": true,
+        "position": 2
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 3,
+    "fields": {
+        "name": "Лікери, вермути",
+        "is_visible": true,
+        "position": 3
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 4,
+    "fields": {
+        "name": "Пиво",
+        "is_visible": true,
+        "position": 4
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 5,
+    "fields": {
+        "name": "Безалкогольні напої",
+        "is_visible": true,
+        "position": 5
+    }
+},
+{
+    "model": "main_page.category_good",
+    "pk": 6,
+    "fields": {
+        "name": "Аксесуари",
+        "is_visible": true,
+        "position": 6
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 1,
+    "fields": {
+        "name": "Текіла",
+        "is_visible": true,
+        "position": 1,
+        "category": 2
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 2,
+    "fields": {
+        "name": "Віскі",
+        "is_visible": true,
+        "position": 2,
+        "category": 2
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 3,
+    "fields": {
+        "name": "Ром",
+        "is_visible": true,
+        "position": 3,
+        "category": 2
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 4,
+    "fields": {
+        "name": "Ігристі вина",
+        "is_visible": true,
+        "position": 4,
+        "category": 1
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 5,
+    "fields": {
+        "name": "Білі вина",
+        "is_visible": true,
+        "position": 5,
+        "category": 1
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 6,
+    "fields": {
+        "name": "Червоні вина",
+        "is_visible": true,
+        "position": 7,
+        "category": 1
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 7,
+    "fields": {
+        "name": "Пиво",
+        "is_visible": true,
+        "position": 8,
+        "category": 4
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 8,
+    "fields": {
+        "name": "Газовані напої",
+        "is_visible": true,
+        "position": 9,
+        "category": 5
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 9,
+    "fields": {
+        "name": "Соки",
+        "is_visible": true,
+        "position": 10,
+        "category": 5
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 10,
+    "fields": {
+        "name": "Посуд",
+        "is_visible": true,
+        "position": 11,
+        "category": 6
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 11,
+    "fields": {
+        "name": "Лікери",
+        "is_visible": true,
+        "position": 12,
+        "category": 3
+    }
+},
+{
+    "model": "main_page.type_good",
+    "pk": 12,
+    "fields": {
+        "name": "Вермути",
+        "is_visible": true,
+        "position": 13,
+        "category": 3
+    }
+},
+{
+    "model": "main_page.slider",
+    "pk": 1,
+    "fields": {
+        "photo": "assets/slider/202301/wine.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.slider",
+    "pk": 2,
+    "fields": {
+        "photo": "assets/slider/202301/liquor.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.slider",
+    "pk": 3,
+    "fields": {
+        "photo": "assets/slider/202301/strong.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 1,
+    "fields": {
+        "desc": "Якісна продукція",
+        "photo": "assets/advantage/202301/11506406583034-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 2,
+    "fields": {
+        "desc": "Обмін та повернення",
+        "photo": "assets/advantage/202301/13472731857021-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 3,
+    "fields": {
+        "desc": "Оплата при отримані",
+        "photo": "assets/advantage/202301/14857461757512-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.advantage",
+    "pk": 4,
+    "fields": {
+        "desc": "Швидка доставка",
+        "photo": "assets/advantage/202301/17754052242941-depositphotos-bgremover.png",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.offer",
+    "pk": 1,
+    "fields": {
+        "offer": "Хіт продажів",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.offer",
+    "pk": 2,
+    "fields": {
+        "offer": "Новинки",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.offer",
+    "pk": 3,
+    "fields": {
+        "offer": "Спеціальна пропозиція",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 1,
+    "fields": {
+        "name": "Текіла Olmeca",
+        "slug": "tequila-Olmeca",
+        "item": 1,
+        "price": "450.00",
+        "description": "Основні характеристики Olmeca\r\nМіцність: 38%\r\nКраїна-виробник: Мексика\r\nОб'єм: 0,7 л",
+        "photo": "assets/product/202301/10677685-depositphotos-bgremover_rgXmi7s.png",
+        "category": 2,
+        "type": 1,
+        "offer": 3,
+        "created": "2023-01-09T12:38:11.303Z",
+        "updated": "2023-01-19T20:14:58.463Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 2,
+    "fields": {
+        "name": "Віскі Jameson",
+        "slug": "viski-jameson",
+        "item": 2,
+        "price": "750.00",
+        "description": "Основні характеристики Віскі Jameson\r\nМіцність:  40% \r\nКраїна-виробник:  Ірландія \r\nОб'єм:  1 л",
+        "photo": "assets/product/202301/10677920-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 2,
+        "offer": 1,
+        "created": "2023-01-09T12:49:40.745Z",
+        "updated": "2023-01-09T12:49:40.745Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 3,
+    "fields": {
+        "name": "Ром Captain-Morgan",
+        "slug": "rom-captain-morgan",
+        "item": 3,
+        "price": "400.00",
+        "description": "Ром Captain-Morgan",
+        "photo": "assets/product/202301/10681061-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": 1,
+        "created": "2023-01-13T16:53:17.346Z",
+        "updated": "2023-01-13T16:53:17.346Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 4,
+    "fields": {
+        "name": "Ром Real Rom",
+        "slug": "rom-real-rom",
+        "item": 4,
+        "price": "500.00",
+        "description": "Ром Real Rom",
+        "photo": "assets/product/202301/10681943-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": 2,
+        "created": "2023-01-13T16:54:15.059Z",
+        "updated": "2023-01-13T16:54:15.060Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 5,
+    "fields": {
+        "name": "Ром білий Bacardi",
+        "slug": "rom-bilij-bacardi",
+        "item": 5,
+        "price": "500.00",
+        "description": "Ром білий Bacardi",
+        "photo": "assets/product/202301/10690329-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": 3,
+        "created": "2023-01-13T16:54:55.952Z",
+        "updated": "2023-01-13T16:54:55.952Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 6,
+    "fields": {
+        "name": "Silver Breeze",
+        "slug": "silver-breeze",
+        "item": 1,
+        "price": "250.00",
+        "description": "Silver Breeze",
+        "photo": "assets/product/202301/10693645-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 4,
+        "offer": 3,
+        "created": "2023-01-13T16:56:08.771Z",
+        "updated": "2023-01-19T20:14:57.871Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 7,
+    "fields": {
+        "name": "Henkel brut",
+        "slug": "henkel-brut",
+        "item": 1,
+        "price": "400.00",
+        "description": "Henkel brut",
+        "photo": "assets/product/202301/10706618-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 4,
+        "offer": 2,
+        "created": "2023-01-13T16:57:01.037Z",
+        "updated": "2023-01-24T13:31:04.661Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 8,
+    "fields": {
+        "name": "Yellow tail Pinot Grigio",
+        "slug": "yellow-tail-pinot-grigio",
+        "item": 1,
+        "price": "350.00",
+        "description": "Yellow tail Pinot Grigio",
+        "photo": "assets/product/202301/10824108-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": 3,
+        "created": "2023-01-13T16:58:40.322Z",
+        "updated": "2023-01-19T20:14:58.134Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 9,
+    "fields": {
+        "name": "Vodka",
+        "slug": "vodka",
+        "item": 1,
+        "price": "200.00",
+        "description": "Vodka",
+        "photo": "assets/product/202301/10706288-depositphotos-bgremover_uMJ9FVs.png",
+        "category": 2,
+        "type": 2,
+        "offer": null,
+        "created": "2023-01-19T20:28:54.873Z",
+        "updated": "2023-01-19T20:28:54.873Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 10,
+    "fields": {
+        "name": "BlaBla",
+        "slug": "blabla",
+        "item": 5,
+        "price": "100.00",
+        "description": "cvbnm,",
+        "photo": "assets/product/202301/163381375-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 1,
+        "offer": 3,
+        "created": "2023-01-19T20:30:06.630Z",
+        "updated": "2023-02-02T16:13:28.618Z",
+        "is_visible": false,
+        "is_available": false
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 11,
+    "fields": {
+        "name": "Віскі Jack Daniels",
+        "slug": "viski-jack-daniels",
+        "item": 5,
+        "price": "400.00",
+        "description": "Віскі Jack Daniels",
+        "photo": "assets/product/202301/10695809-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 2,
+        "offer": null,
+        "created": "2023-01-26T09:40:05.944Z",
+        "updated": "2023-01-26T09:40:05.944Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 12,
+    "fields": {
+        "name": "Текіла Sierra",
+        "slug": "tekila-sierra",
+        "item": 5,
+        "price": "450.00",
+        "description": "Текіла Sierra",
+        "photo": "assets/product/202301/10836558-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 1,
+        "offer": null,
+        "created": "2023-01-26T09:40:52.297Z",
+        "updated": "2023-01-26T09:40:52.297Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 13,
+    "fields": {
+        "name": "Ром Dead Man's fingers raspberry",
+        "slug": "rom-dead-mans-fingers-raspberry",
+        "item": 7,
+        "price": "600.00",
+        "description": "Ром Dead Man's fingers raspberry",
+        "photo": "assets/product/202301/37385916-depositphotos-bgremover.png",
+        "category": 2,
+        "type": 3,
+        "offer": null,
+        "created": "2023-01-26T09:42:23.946Z",
+        "updated": "2023-01-26T09:42:23.946Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 14,
+    "fields": {
+        "name": "Вино Misilla",
+        "slug": "wine-misilla",
+        "item": 8,
+        "price": "350.00",
+        "description": "Вино Misilla",
+        "photo": "assets/product/202301/273470882-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": null,
+        "created": "2023-01-26T09:44:02.278Z",
+        "updated": "2023-01-26T09:44:02.278Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 15,
+    "fields": {
+        "name": "Вино daMalta",
+        "slug": "wine-damalta",
+        "item": 9,
+        "price": "400.00",
+        "description": "Вино daMalta",
+        "photo": "assets/product/202301/123257965-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 6,
+        "offer": null,
+        "created": "2023-01-26T09:45:09.268Z",
+        "updated": "2023-01-26T09:45:09.268Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 16,
+    "fields": {
+        "name": "Вино Comte",
+        "slug": "wine-comte",
+        "item": 12,
+        "price": "400.00",
+        "description": "Вино Comte",
+        "photo": "assets/product/202301/288207504-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 6,
+        "offer": null,
+        "created": "2023-01-26T09:45:58.322Z",
+        "updated": "2023-01-26T09:45:58.323Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 17,
+    "fields": {
+        "name": "Corona Extra 12шт",
+        "slug": "corona-extra-12sht",
+        "item": 10,
+        "price": "480.00",
+        "description": "Corona Extra упаковка 12шт",
+        "photo": "assets/product/202302/37367504-depositphotos-bgremover.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-01-26T09:47:52.204Z",
+        "updated": "2023-02-02T13:57:01.003Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 18,
+    "fields": {
+        "name": "Пиво Blanc 24",
+        "slug": "beer-blanc",
+        "item": 11,
+        "price": "500.00",
+        "description": "Пиво Blanc 24 шт",
+        "photo": "assets/product/202301/269763234-depositphotos-bgremover.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-01-26T09:51:11.824Z",
+        "updated": "2023-01-26T10:04:23.620Z",
+        "is_visible": false,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 19,
+    "fields": {
+        "name": "Пиво Leffe",
+        "slug": "beer-leffe",
+        "item": 1,
+        "price": "45.00",
+        "description": "Пиво Leffe",
+        "photo": "assets/product/202301/48743677-depositphotos-bgremover.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-01-26T09:52:06.529Z",
+        "updated": "2023-01-26T09:52:06.529Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 20,
+    "fields": {
+        "name": "Elysee",
+        "slug": "elysee",
+        "item": 4,
+        "price": "600.00",
+        "description": "Elysee",
+        "photo": "assets/product/202302/303793468-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 4,
+        "offer": null,
+        "created": "2023-02-02T13:53:27.515Z",
+        "updated": "2023-02-02T13:53:27.515Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 21,
+    "fields": {
+        "name": "Sauvignon Rose",
+        "slug": "wine-sauvignon-rose",
+        "item": 15,
+        "price": "400.00",
+        "description": "Sauvignon Rose",
+        "photo": "assets/product/202302/44545492-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": null,
+        "created": "2023-02-02T13:54:26.812Z",
+        "updated": "2023-02-02T13:54:26.812Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 22,
+    "fields": {
+        "name": "Capela",
+        "slug": "wine-capela",
+        "item": 6,
+        "price": "350.00",
+        "description": "Capela",
+        "photo": "assets/product/202302/123257960-depositphotos-bgremover.png",
+        "category": 1,
+        "type": 5,
+        "offer": null,
+        "created": "2023-02-02T13:55:25.102Z",
+        "updated": "2023-02-02T13:55:25.102Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 23,
+    "fields": {
+        "name": "Corona Extra",
+        "slug": "beercorona-extra",
+        "item": 4,
+        "price": "45.00",
+        "description": "Corona Extra",
+        "photo": "assets/product/202302/37367504-depositphotos-bgremover_OatJQiq.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-02-02T13:56:15.066Z",
+        "updated": "2023-02-02T16:24:28.766Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 24,
+    "fields": {
+        "name": "Heineken",
+        "slug": "beer-heineken",
+        "item": 22,
+        "price": "50.00",
+        "description": "Heineken",
+        "photo": "assets/product/202302/png-transparent-beer-bottle_MtkmQ41.png",
+        "category": 4,
+        "type": 7,
+        "offer": null,
+        "created": "2023-02-02T13:59:30.666Z",
+        "updated": "2023-02-02T15:54:01.652Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 25,
+    "fields": {
+        "name": "Fanta 0.33 10шт",
+        "slug": "fanta-033-10sht",
+        "item": 1,
+        "price": "150.00",
+        "description": "Fanta 0.33 10шт",
+        "photo": "assets/product/202302/fanta-vitaminC_B4CmZaz.png",
+        "category": 5,
+        "type": 8,
+        "offer": null,
+        "created": "2023-02-02T14:01:07.946Z",
+        "updated": "2023-02-02T14:01:07.946Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 26,
+    "fields": {
+        "name": "Coca-cola clasic 0.33 10шт",
+        "slug": "coca-cola-clasic-033-10sht",
+        "item": 5,
+        "price": "140.00",
+        "description": "Coca-cola clasic 0.33 10шт",
+        "photo": "assets/product/202302/Koka-kola-033-zh_b-_12_.png",
+        "category": 5,
+        "type": 8,
+        "offer": null,
+        "created": "2023-02-02T14:01:45.357Z",
+        "updated": "2023-02-02T16:27:09.257Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 27,
+    "fields": {
+        "name": "Schweppes 12шт",
+        "slug": "schweppes-12sht",
+        "item": 2,
+        "price": "150.00",
+        "description": "Schweppes 12шт",
+        "photo": "assets/product/202302/voda-shveps-indian-tonik-033l-12shtup-zhestyanaya-banka-schweppes0.png",
+        "category": 5,
+        "type": 8,
+        "offer": null,
+        "created": "2023-02-02T14:10:01.789Z",
+        "updated": "2023-02-02T16:27:27.486Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 28,
+    "fields": {
+        "name": "Наш сік мультивітамін",
+        "slug": "nash-sik-multivitamin",
+        "item": 32,
+        "price": "52.00",
+        "description": "Наш сік мультивітамін 1л",
+        "photo": "assets/product/202302/8915_av.png",
+        "category": 5,
+        "type": 9,
+        "offer": null,
+        "created": "2023-02-02T15:49:24.916Z",
+        "updated": "2023-02-02T16:27:48.904Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 29,
+    "fields": {
+        "name": "Сік Sandora апельсин-грейпфрут",
+        "slug": "sik-sandora-apelsin-grejpfrut",
+        "item": 21,
+        "price": "55.00",
+        "description": "Сік Sandora апельсин-грейпфрут",
+        "photo": "assets/product/202302/1235108_1.png",
+        "category": 5,
+        "type": 9,
+        "offer": null,
+        "created": "2023-02-02T15:50:24.289Z",
+        "updated": "2023-02-02T16:28:17.121Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 30,
+    "fields": {
+        "name": "Сік Sandora апельсиновий 1л",
+        "slug": "sik-sandora-apelsinovij-1l",
+        "item": 13,
+        "price": "55.00",
+        "description": "Сік Sandora апельсиновий 1л",
+        "photo": "assets/product/202302/soksandoraapelsin.png",
+        "category": 5,
+        "type": 9,
+        "offer": null,
+        "created": "2023-02-02T15:51:59.588Z",
+        "updated": "2023-02-02T16:28:09.996Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 31,
+    "fields": {
+        "name": "Набір барного посуду",
+        "slug": "nabir-barnogo-posudu",
+        "item": 1,
+        "price": "1100.00",
+        "description": "Набір барного посуду",
+        "photo": "assets/product/202302/3843827564_w640_h640_3843827564.png",
+        "category": 6,
+        "type": 10,
+        "offer": null,
+        "created": "2023-02-02T15:55:23.249Z",
+        "updated": "2023-02-02T16:28:34.998Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 32,
+    "fields": {
+        "name": "Келих винний",
+        "slug": "kelih-vinnij",
+        "item": 2,
+        "price": "75.00",
+        "description": "Келих винний",
+        "photo": "assets/product/202302/загрузка.png",
+        "category": 6,
+        "type": 10,
+        "offer": null,
+        "created": "2023-02-02T15:56:35.039Z",
+        "updated": "2023-02-02T16:28:46.810Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 33,
+    "fields": {
+        "name": "Склянка",
+        "slug": "sklyanka",
+        "item": 10,
+        "price": "65.00",
+        "description": "Склянка",
+        "photo": "assets/product/202302/3761180324_w600_h600_3761180324_C5mWfuC.png",
+        "category": 6,
+        "type": 10,
+        "offer": 2,
+        "created": "2023-02-02T15:57:52.664Z",
+        "updated": "2023-02-02T16:29:17.844Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 34,
+    "fields": {
+        "name": "Sheridan's лікер",
+        "slug": "sheridans-liker",
+        "item": 2,
+        "price": "500.00",
+        "description": "Sheridan's лікер",
+        "photo": "assets/product/202302/393031-liker-sheridans-1-l-f-transformed.png",
+        "category": 3,
+        "type": 11,
+        "offer": null,
+        "created": "2023-02-02T16:03:22.269Z",
+        "updated": "2023-02-02T16:20:26.278Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 35,
+    "fields": {
+        "name": "Baileys лікер",
+        "slug": "baileys-liker",
+        "item": 3,
+        "price": "645.00",
+        "description": "Baileys лікер",
+        "photo": "assets/product/202302/загрузка_1.png",
+        "category": 3,
+        "type": 11,
+        "offer": null,
+        "created": "2023-02-02T16:04:00.385Z",
+        "updated": "2023-02-02T16:22:55.232Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 36,
+    "fields": {
+        "name": "Missis лікер",
+        "slug": "missis-liker",
+        "item": 4,
+        "price": "650.00",
+        "description": "Missis лікер",
+        "photo": "assets/product/202302/kupit-shokoladnyj-liker-missis-creamy-cokolada-05l-transformed.png",
+        "category": 3,
+        "type": 11,
+        "offer": null,
+        "created": "2023-02-02T16:05:06.121Z",
+        "updated": "2023-02-02T16:20:38.245Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 37,
+    "fields": {
+        "name": "Santo Stefano",
+        "slug": "santo-stefano",
+        "item": 5,
+        "price": "400.00",
+        "description": "Santo Stefano вермут",
+        "photo": "assets/product/202302/0_0_orig-Qs2pAB_ID-transformed.png",
+        "category": 3,
+        "type": 12,
+        "offer": null,
+        "created": "2023-02-02T16:05:55.915Z",
+        "updated": "2023-02-02T16:18:58.224Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 38,
+    "fields": {
+        "name": "ISSI вермут",
+        "slug": "issi-vermut",
+        "item": 6,
+        "price": "450.00",
+        "description": "ISSI вермут",
+        "photo": "assets/product/202302/images_1.png",
+        "category": 3,
+        "type": 12,
+        "offer": null,
+        "created": "2023-02-02T16:06:25.170Z",
+        "updated": "2023-02-02T16:23:17.151Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.product",
+    "pk": 39,
+    "fields": {
+        "name": "Martini вермут",
+        "slug": "martini-vermut",
+        "item": 7,
+        "price": "500.00",
+        "description": "Martini вермут",
+        "photo": "assets/product/202302/images.png",
+        "category": 3,
+        "type": 12,
+        "offer": null,
+        "created": "2023-02-02T16:06:50.867Z",
+        "updated": "2023-02-02T16:23:29.246Z",
+        "is_visible": true,
+        "is_available": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 1,
+    "fields": {
+        "photo": "assets/gallery/202301/79.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 2,
+    "fields": {
+        "photo": "assets/gallery/202301/18890_88628598.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 3,
+    "fields": {
+        "photo": "assets/gallery/202301/655665.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 4,
+    "fields": {
+        "photo": "assets/gallery/202301/1517827134_izvestnye-marki-viski-2.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 5,
+    "fields": {
+        "photo": "assets/gallery/202301/d48ed900e79fa9547169c26138b4cd8d_XL.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 6,
+    "fields": {
+        "photo": "assets/gallery/202301/red-wine-health-benefits-ce3be96b730b41cc82f128abb75c2395.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.gallery",
+    "pk": 7,
+    "fields": {
+        "photo": "assets/gallery/202301/SdpSUHsa2umtucBumMJwOEs1vuVskEbAPnSnFFwh.jpg",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.phone",
+    "pk": 1,
+    "fields": {
+        "phone": "+380630000001",
+        "is_visible": true,
+        "is_viber": true,
+        "is_telegram": false
+    }
+},
+{
+    "model": "main_page.phone",
+    "pk": 2,
+    "fields": {
+        "phone": "+380630000002",
+        "is_visible": true,
+        "is_viber": false,
+        "is_telegram": true
+    }
+},
+{
+    "model": "main_page.phone",
+    "pk": 3,
+    "fields": {
+        "phone": "+380670000001",
+        "is_visible": true,
+        "is_viber": false,
+        "is_telegram": true
+    }
+},
+{
+    "model": "main_page.email_adress",
+    "pk": 1,
+    "fields": {
+        "email": "grape@gmail.com",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.email_adress",
+    "pk": 2,
+    "fields": {
+        "email": "grape_manager@gmail.com",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.email_adress",
+    "pk": 3,
+    "fields": {
+        "email": "grape_support@gmail.com",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.address",
+    "pk": 1,
+    "fields": {
+        "address": "Location",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 1,
+    "fields": {
+        "name": "Anna",
+        "message": "Good",
+        "product": 10,
+        "date": "2023-01-26T10:10:58.193Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 2,
+    "fields": {
+        "name": "Anna",
+        "message": "Henkel brut Delicious",
+        "product": 7,
+        "date": "2023-01-26T10:52:32.301Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 3,
+    "fields": {
+        "name": "kjhgfdfkjh",
+        "message": ",kjhgkjhgffghjj",
+        "product": 10,
+        "date": "2023-01-26T18:41:07.452Z",
+        "is_visible": false
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 4,
+    "fields": {
+        "name": "Анастасія",
+        "message": "Дуже хороший товар якіснй фвоаіиапчсчяфілотамсч ролвадиптри  ваприть",
+        "product": 10,
+        "date": "2023-01-30T07:36:15.683Z",
+        "is_visible": false
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 5,
+    "fields": {
+        "name": "Анастасія",
+        "message": "Дуже хороший товар якіснй фвоаіиапчсчяфілотамсч ролвадиптри  ваприть",
+        "product": 10,
+        "date": "2023-01-30T07:36:37.345Z",
+        "is_visible": false
+    }
+},
+{
+    "model": "main_page.feedback",
+    "pk": 6,
+    "fields": {
+        "name": "Anna",
+        "message": "Дуже хороший товар",
+        "product": 13,
+        "date": "2023-02-02T16:10:18.499Z",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.paymethod",
+    "pk": 1,
+    "fields": {
+        "method": "Готівка при отриманні",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.paymethod",
+    "pk": 2,
+    "fields": {
+        "method": "Банківська картка",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 1,
+    "fields": {
+        "city": "Вінниця",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 2,
+    "fields": {
+        "city": "Луцьк",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 3,
+    "fields": {
+        "city": "Дніпро",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 4,
+    "fields": {
+        "city": "Житомир",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 5,
+    "fields": {
+        "city": "Ужгород",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 6,
+    "fields": {
+        "city": "Запоріжжя",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.city",
+    "pk": 7,
+    "fields": {
+        "city": "Київ",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 1,
+    "fields": {
+        "department": 1,
+        "city": 1,
+        "address": "вул. Якова Шепеля, 1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 2,
+    "fields": {
+        "department": 2,
+        "city": 1,
+        "address": "вул.Липовецька 6а",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 3,
+    "fields": {
+        "department": 3,
+        "city": 1,
+        "address": "вул.Соборна 89",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 4,
+    "fields": {
+        "department": 4,
+        "city": 1,
+        "address": "вул.Юрія Клена 28",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 5,
+    "fields": {
+        "department": 5,
+        "city": 1,
+        "address": "вул.Келицька 83",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 6,
+    "fields": {
+        "department": 6,
+        "city": 1,
+        "address": "вул.Зодчих 16",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 7,
+    "fields": {
+        "department": 7,
+        "city": 1,
+        "address": "вул. 600-річчя 50",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 8,
+    "fields": {
+        "department": 1,
+        "city": 2,
+        "address": "вул. Карбишева, 1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 9,
+    "fields": {
+        "department": 2,
+        "city": 2,
+        "address": "вул. Шевченка, 88",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 10,
+    "fields": {
+        "department": 3,
+        "city": 2,
+        "address": "просп. Соборності, 1-А",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 11,
+    "fields": {
+        "department": 4,
+        "city": 2,
+        "address": "вул. Львівська, 152 б",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 12,
+    "fields": {
+        "department": 5,
+        "city": 2,
+        "address": "вул. Зв'язківців, 1а",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 13,
+    "fields": {
+        "department": 1,
+        "city": 3,
+        "address": "вул. Маршала Малиновського, 114",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 14,
+    "fields": {
+        "department": 2,
+        "city": 3,
+        "address": "вул. Академіка Янгеля, 40",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 15,
+    "fields": {
+        "department": 3,
+        "city": 3,
+        "address": "вул. Тверська, 1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 16,
+    "fields": {
+        "department": 4,
+        "city": 3,
+        "address": "вул. Князя Ярослава Мудрого (ран. Ленінградська), 19",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 17,
+    "fields": {
+        "department": 1,
+        "city": 4,
+        "address": "вул. Гранітна, 16",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 18,
+    "fields": {
+        "department": 2,
+        "city": 4,
+        "address": "вул. Тараса Бульби-Боровця (ран. Маршала Рибалко), 28",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 19,
+    "fields": {
+        "department": 3,
+        "city": 4,
+        "address": "вул. Покровська (ран. Щорса), 20",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 20,
+    "fields": {
+        "department": 1,
+        "city": 5,
+        "address": "вул. Верещагіна, 16",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 21,
+    "fields": {
+        "department": 2,
+        "city": 5,
+        "address": "вул. Станційна, 16/1",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 22,
+    "fields": {
+        "department": 3,
+        "city": 5,
+        "address": "вул. Острівна, 9А",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 23,
+    "fields": {
+        "department": 1,
+        "city": 6,
+        "address": "вул. Теплобудівна, 28",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 24,
+    "fields": {
+        "department": 2,
+        "city": 6,
+        "address": "вул. Карпенка-Карого, 58",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 25,
+    "fields": {
+        "department": 3,
+        "city": 6,
+        "address": "вул. Айвазовського, 9 (правий берег)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 26,
+    "fields": {
+        "department": 1,
+        "city": 7,
+        "address": "вул. Пирогівський шлях, 135",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 27,
+    "fields": {
+        "department": 2,
+        "city": 7,
+        "address": "вул. Бережанська, 9 (Оболонь Лугова)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 28,
+    "fields": {
+        "department": 3,
+        "city": 7,
+        "address": "вул. Бережанська, 9 (Оболонь Лугова)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 29,
+    "fields": {
+        "department": 4,
+        "city": 7,
+        "address": "вул. Кричевського, 19, м. Житомирська (Святошин)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 30,
+    "fields": {
+        "department": 5,
+        "city": 7,
+        "address": "вул. Федорова, 32 (м. Олімпійська)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 31,
+    "fields": {
+        "department": 6,
+        "city": 7,
+        "address": "вул. Миколи Василенка, 2 (метро Берестейська)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 32,
+    "fields": {
+        "department": 7,
+        "city": 7,
+        "address": "вул. Гната Хоткевича, 8 (м.Чернігівська)",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 33,
+    "fields": {
+        "department": 8,
+        "city": 7,
+        "address": "вул. Набережно-Хрещатицька, 33",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 34,
+    "fields": {
+        "department": 9,
+        "city": 7,
+        "address": "пров. В'ячеслава Чорновола, 54а",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.department",
+    "pk": 35,
+    "fields": {
+        "department": 10,
+        "city": 7,
+        "address": "вул. Василя Жуковського, 22А",
+        "is_visible": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 1,
+    "fields": {
+        "name": "Fyyfff",
+        "last_name": "fffffff",
+        "email": "nastabka@gmail.com",
+        "phone": "0639794367",
+        "city": 1,
+        "department": 1,
+        "pay_method": 1,
+        "created": "2023-01-24T12:10:45Z",
+        "updated": "2023-02-01T11:33:34.678Z",
+        "paid": true,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 2,
+    "fields": {
+        "name": "Anna",
+        "last_name": "Ferat",
+        "email": "anna@ukr.net",
+        "phone": "0639794367",
+        "city": 1,
+        "department": 1,
+        "pay_method": 2,
+        "created": "2023-01-24T14:17:33Z",
+        "updated": "2023-01-25T13:40:05.727Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 3,
+    "fields": {
+        "name": "Nastia",
+        "last_name": "Bkdg",
+        "email": "nas@dfghj.gh",
+        "phone": "0639794367",
+        "city": 7,
+        "department": 27,
+        "pay_method": 2,
+        "created": "2023-01-26T18:39:59.977Z",
+        "updated": "2023-01-26T18:40:00.091Z",
+        "paid": true,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 4,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "VVVV",
+        "email": "viktoria@fdfd.fd",
+        "phone": "0639794367",
+        "city": 1,
+        "department": 4,
+        "pay_method": 1,
+        "created": "2023-02-01T10:32:55.566Z",
+        "updated": "2023-02-01T10:32:55.722Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 5,
+    "fields": {
+        "name": "Csdfgh",
+        "last_name": "sdfgh",
+        "email": "asdfgh@fg.gh",
+        "phone": "0639999999",
+        "city": 3,
+        "department": 16,
+        "pay_method": 1,
+        "created": "2023-02-01T10:35:28.859Z",
+        "updated": "2023-02-01T10:35:29.083Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 6,
+    "fields": {
+        "name": "Csdfgh",
+        "last_name": "sdfgh",
+        "email": "asdfgh@fg.gh",
+        "phone": "0639999999",
+        "city": 3,
+        "department": 16,
+        "pay_method": 1,
+        "created": "2023-02-01T10:47:11.736Z",
+        "updated": "2023-02-01T10:47:12.004Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 7,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T10:57:06.608Z",
+        "updated": "2023-02-01T10:57:06.674Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 8,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T10:57:42.400Z",
+        "updated": "2023-02-01T10:57:42.926Z",
+        "paid": true,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 9,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T10:59:45.321Z",
+        "updated": "2023-02-01T10:59:45.739Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 10,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T11:01:38.414Z",
+        "updated": "2023-02-01T11:01:38.808Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 11,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T11:02:55.457Z",
+        "updated": "2023-02-01T11:02:55.530Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 12,
+    "fields": {
+        "name": "Viktoria",
+        "last_name": "Vvv",
+        "email": "vvvv@vv.vv",
+        "phone": "0639999999",
+        "city": 2,
+        "department": 11,
+        "pay_method": 2,
+        "created": "2023-02-01T11:03:53.415Z",
+        "updated": "2023-02-01T11:03:53.946Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 13,
+    "fields": {
+        "name": "Ання",
+        "last_name": "Дзьома",
+        "email": "anna@gmail.com",
+        "phone": "0631672931",
+        "city": 3,
+        "department": 15,
+        "pay_method": 2,
+        "created": "2023-02-01T11:09:57.097Z",
+        "updated": "2023-02-01T11:09:57.372Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 14,
+    "fields": {
+        "name": "Anna",
+        "last_name": "Anna",
+        "email": "anna@gmail.com",
+        "phone": "0631672961",
+        "city": 1,
+        "department": 1,
+        "pay_method": 2,
+        "created": "2023-02-01T11:13:56.233Z",
+        "updated": "2023-02-01T11:13:56.574Z",
+        "paid": false,
+        "is_processed": true
+    }
+},
+{
+    "model": "order.order",
+    "pk": 15,
+    "fields": {
+        "name": "Slava",
+        "last_name": "Slava",
+        "email": "slava@sl.av",
+        "phone": "0442223344",
+        "city": 7,
+        "department": 27,
+        "pay_method": 2,
+        "created": "2023-02-01T11:32:35.867Z",
+        "updated": "2023-02-01T11:32:36.259Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.order",
+    "pk": 16,
+    "fields": {
+        "name": "Анастасія",
+        "last_name": "Дзьома",
+        "email": "nastabka@gmail.com",
+        "phone": "0639794367",
+        "city": 7,
+        "department": 26,
+        "pay_method": 1,
+        "created": "2023-02-02T16:11:46.943Z",
+        "updated": "2023-02-02T16:11:47.233Z",
+        "paid": false,
+        "is_processed": false
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 20,
+    "fields": {
+        "order": 1,
+        "product": 17,
+        "price": "480.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 21,
+    "fields": {
+        "order": 15,
+        "product": 1,
+        "price": "450.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 22,
+    "fields": {
+        "order": 15,
+        "product": 19,
+        "price": "45.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 23,
+    "fields": {
+        "order": 8,
+        "product": 15,
+        "price": "400.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 24,
+    "fields": {
+        "order": 8,
+        "product": 13,
+        "price": "600.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 25,
+    "fields": {
+        "order": 9,
+        "product": 19,
+        "price": "45.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 26,
+    "fields": {
+        "order": 10,
+        "product": 6,
+        "price": "250.00",
+        "quantity": 4
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 27,
+    "fields": {
+        "order": 10,
+        "product": 19,
+        "price": "45.00",
+        "quantity": 7
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 28,
+    "fields": {
+        "order": 11,
+        "product": 13,
+        "price": "600.00",
+        "quantity": 6
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 29,
+    "fields": {
+        "order": 12,
+        "product": 12,
+        "price": "450.00",
+        "quantity": 6
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 30,
+    "fields": {
+        "order": 13,
+        "product": 2,
+        "price": "750.00",
+        "quantity": 5
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 31,
+    "fields": {
+        "order": 15,
+        "product": 4,
+        "price": "500.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 32,
+    "fields": {
+        "order": 8,
+        "product": 1,
+        "price": "450.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 36,
+    "fields": {
+        "order": 16,
+        "product": 38,
+        "price": "450.00",
+        "quantity": 1
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 37,
+    "fields": {
+        "order": 16,
+        "product": 25,
+        "price": "150.00",
+        "quantity": 2
+    }
+},
+{
+    "model": "order.orderitems",
+    "pk": 38,
+    "fields": {
+        "order": 16,
+        "product": 35,
+        "price": "645.00",
+        "quantity": 2
+    }
+}
+]
