@@ -3,6 +3,9 @@ from .models import Order, City, Department, PayMethod
 
 
 class OrderForm(forms.ModelForm):
+    """
+    Form to make an order by customer.
+    """
 
     name = forms.CharField(max_length=50, label='Імя', widget=forms.TextInput(attrs={'type': "text",
                                                                                      'name': "name",

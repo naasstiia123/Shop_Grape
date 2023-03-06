@@ -8,6 +8,9 @@ from .forms import FeedbackForm
 
 # Create your views here.
 def main(request):
+    """
+    Shows the main page of the site.
+    """
     products = Product.objects.filter(is_visible=True)
     slide = Slider.objects.filter(is_visible=True)
     advantage = Advantage.objects.filter(is_visible=True)
@@ -22,6 +25,12 @@ def main(request):
                                                  'cart': cart})
 
 def product(request, id, slug):
+    """
+    Shows the information about good.
+    :param id: id of good which shows
+    :param slug: slug of good which shows
+    :return: page with details about good.
+    """
     if request.method == 'POST':
         form = FeedbackForm(request.POST)
         if form.is_valid():
@@ -35,6 +44,11 @@ def product(request, id, slug):
     return render(request, 'product.html', context={'product': products, 'form': form, 'feedback': feedback})
 
 def menu_product(request, id):
+    """
+        Shows the list of goods in chosen category.
+        :param id: id of category.
+        :return: page with list of goods.
+    """
     category = get_object_or_404(Category_good, id=id, is_visible=True)
     type = Type_good.objects.filter(is_visible=True, category=category.pk)
     product = Product.objects.filter(is_visible=True, category=category.pk)
@@ -45,6 +59,10 @@ class Search(ListView):
     model = Product
 
     def get_queryset(self):
+        """
+        Search a special good by user.
+        :return:list with goods which correspondence.
+        """
         query = self.request.GET.get("q")
         query_title = query.title()
         object_list = Product.objects.filter(Q(name__icontains=query_title) | Q(slug__icontains=query) | Q(

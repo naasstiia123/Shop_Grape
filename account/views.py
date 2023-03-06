@@ -4,6 +4,11 @@ from .forms import RegistrationForm, LoginForm
 
 # Create your views here.
 def login_view(request):
+    """
+    Shows page with form to log in. Log  in on the site.
+    :return:redirect on main page of the site
+
+    """
     form = LoginForm(request.POST or None)
     next_get = request.GET.get('next')
 
@@ -21,10 +26,20 @@ def login_view(request):
     return render(request, 'login.html', context={'form': form})
 
 def logout_view(request):
+    """
+    Log out from the site.
+    :return:redirect on main page of the site
+
+    """
     logout(request)
     return redirect('/')
 
 def registration_view(request):
+    """
+    Shows page with form to registration. Registration on the site.
+    :return:redirect on main page of the site
+
+    """
     form = RegistrationForm(request.POST or None)
 
     if form.is_valid():

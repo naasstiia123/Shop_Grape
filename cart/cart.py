@@ -5,6 +5,10 @@ from main_page.models import Product
 
 class Cart:
 
+    """
+    Create,change and save user's cart.
+    """
+
     def __init__(self, request):
         """
         Initialize the cart.
@@ -30,6 +34,9 @@ class Cart:
         self.save()
 
     def save(self):
+        """
+        Save the state of the cart.
+        """
         # mark the session as "modified" to make sure it gets saved
         self.session.modified = True
 
@@ -43,10 +50,15 @@ class Cart:
             self.save()
 
     def get_total_price(self):
+        """
+        Count total cost of goods.
+        """
         return sum(Decimal(item['price']) * item['quantity'] for item in self.cart.values())
 
     def clear(self):
-        # remove cart from session
+        """
+        Remove cart from session
+        """
         del self.session[settings.CART_SESSION_ID]
         self.save()
 

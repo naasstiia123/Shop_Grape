@@ -2,6 +2,9 @@ from django import forms
 from .models import Feedback
 
 class FeedbackForm(forms.ModelForm):
+    """
+    Leave a feedback about some good.
+    """
 
     name = forms.CharField(max_length=50, label='Ім\'я', widget=forms.TextInput(attrs={'type': "text",
                                                                                        'name': "name",

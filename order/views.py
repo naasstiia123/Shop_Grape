@@ -6,6 +6,9 @@ from order.forms import OrderForm
 # Create your views here.
 
 def order_create(request):
+    """
+    Shows page with form to order and the information about customer's cart.
+    """
     cart = Cart(request)
     if request.method == 'POST':
         form = OrderForm(request.POST)

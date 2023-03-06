@@ -9,11 +9,19 @@ from django.views.decorators.http import require_POST
 
 # Create your views here.
 def is_manager(user):
+    """
+    Checking correspondence to manager's group.
+    :param user: data about current identified user.
+    :return:boolean result.
+    """
     return user.groups.filter(name='Managers').exists()
 
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def orders_view(request):
+    """
+    Shows page with customer's orders.
+    """
     order = Order.objects.filter(is_processed=False)
     items = OrderItems.objects.all()
     form = UpdateOrderForm()
@@ -25,6 +33,9 @@ def orders_view(request):
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def feedback_views(request):
+    """
+    Shows page with customer's feedbacks.
+    """
     feedback = Feedback.objects.filter(is_visible=True)
     return render(request, 'feedback_manager.html', context={'feedback': feedback})
 
@@ -33,18 +44,30 @@ def feedback_views(request):
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def update_order(request, pk):
+    """
+    Change the status of order to processed.
+    :param pk: id of order which will be updated.
+    """
     Order.objects.filter(pk=pk).update(is_processed=True)
     return redirect('manager:orders')
 
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def paid_order(request, pk):
+    """
+    Change the status of payment to paid.
+    :param pk: id of order which will be updated.
+    """
     Order.objects.filter(pk=pk).update(paid=True)
     return redirect('manager:orders')
 
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def update_feedback(request, pk):
+    """
+    Hide the feedback from site.
+    :param pk: id of feedback which will be hident.
+    """
     Feedback.objects.filter(pk=pk).update(is_visible=False)
     return redirect('manager:feedback')
 
@@ -53,6 +76,10 @@ def update_feedback(request, pk):
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def update_order_items(request, pk):
+    """
+    Add goods to the order.
+    :param pk:id of the good which will be added.
+    """
     if request.method == 'POST':
         form = UpdateOrderForm(request.POST)
         form.save(commit=False)
@@ -67,6 +94,10 @@ def update_order_items(request, pk):
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def update_order_quantity(request, pk):
+    """
+    Change quantity of the good in the order.
+    :param pk:id of the good which will be changed.
+    """
     if request.method == 'POST':
         form = CartAddProduct(request.POST)
         quantity = form.data['quantity']
@@ -78,6 +109,10 @@ def update_order_quantity(request, pk):
 @login_required(login_url='/login/')
 @user_passes_test(is_manager)
 def del_order_items(request, item):
+    """
+    Remove a good from the order.
+    :param pk:id of the good which will be removed.
+    """
     OrderItems.objects.get(pk=item).delete()
     return redirect('manager:orders')
 
